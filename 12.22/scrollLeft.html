@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="scroll.css"/>
+    <link rel="stylesheet" href="../content/icon_font.css"/>
+    <link rel="stylesheet" href="../content/normalize.css"/>
+    <script type="text/javascript" charset="utf-8" src="iscroll.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false, mouseWheel: true,click: true });
+            console.log(myScroll);
+            myScroll.scrollToElement(document.querySelector('#scroller li:nth-child(3)'));
+            var el = document.querySelector("#scroller li:nth-child(3)");
+            var ds = document.querySelector("#scroller li:nth-child(1)");
+            el.onclick = function(){
+                myScroll.scrollToElement(ds);
+                console.log("1212")
+            }
+        }
+        document.addEventListener('touchmove', function (e) { e.preventDefault();}, false);
+
+    </script>
+</head>
+<body onload="loaded()">
+<div id="wrapper" class="wrapper">
+    <div id="scroller">
+        <span class="scrollLeft"><i class="icon_font">&#xe600;</i></span>
+        <ul class="container">
+        <li class="item">
+            <a  class="menu0" href="javascript:void(0)">菜单一</a>
+        </li>
+        <li class="item">
+            <a  class="menu1" href="javascript:void(0)">菜单二</a>
+        </li>
+        <li class="item">
+            <a href="#">
+                text</a>
+        </li>
+        <li class="item">
+            <a  class="menu3" href="javascript:void(0)">菜单四</a>
+        </li>
+        <li class="item">
+            <a  class="menu4" href="javascript:void(0)">菜单五</a>
+        </li>
+        <li class="item">
+            <a  class="menu5" href="javascript:void(0)">菜单六</a>
+        </li>
+        <li class="item">
+            <a  class="menu6" href="javascript:void(0)">菜单七</a>
+        </li>
+        <li class="item">
+            <a class="menu7" href="javascript:void(0)">菜单八</a>
+        </li>
+        <li class="item">
+            <a class="menu8" href="javascript:void(0)">菜单九</a>
+        </li>
+        <li class="item">
+            <a class="menu9" href="javascript:void(0)">菜单十</a>
+        </li>
+    </ul>
+        <span class="scrollRight"><i class="icon_font">&#xe601;</i></span>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.tooltip {
+    text-decoration: none;
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+#scroller{
+    transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+    transition-duration: 0ms;
+    transform: translate(-500px, 0px) translateZ(0px);
+}
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 300px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+    overflow: auto;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 500px;
+    overflow: scroll;
+    margin: 50px auto;
+    height: 30px;
+    position: relative;
+}
+.container{
+    display: inline;
+    white-space: nowrap;
+    width: auto;
+    padding-left: 30px;
+    position: relative;
+    overflow-x: scroll;
+}
+.scrollLeft{
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    width: 20px;
+    display: inline-block;
+    background: orangered;
+    text-align: center;
+}
+.scrollRight{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    width: 20px;
+    display: inline-block;
+    background: orangered;
+    text-align: center;
+}
+
+.item{
+    list-style: none;
+    margin-right: 20px;
+    width:100px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+.container li:last-child{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}

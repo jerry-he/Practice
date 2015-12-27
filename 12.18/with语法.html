@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    var o = {};
+    with(0){
+        x = '123';  //虽然在（）{}内部，但是x依旧和with处于同一级，属于同级属性，x不属于with的属性
+    }
+    console.log(o.x);
+    console.log(x);
+    var o1;
+    with (o1.o2.o3){
+        console.log(p1 + p2);
+    }
+    //with中的参数必须是事先定义过的
+        var tmp = o1.o2.o3;
+        console.log(tmp.p1 + tmp.p2);
+</script>
+</body>
+</html>

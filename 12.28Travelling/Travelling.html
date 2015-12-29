@@ -5,6 +5,7 @@
     <title>IReMatch ,help you to discover a unique china </title>
     <link rel="stylesheet" href="../content/normalize.css"/>
     <link rel="stylesheet" href="travelling.css"/>
+    <link rel="stylesheet" href="../content/icon_font.css"/>
 </head>
 <body>
     <header class="headerWrapper">
@@ -85,13 +86,34 @@
                     <a href="javascript:void(0);">
                         <img class="icon-cloud-leo pull-left" src="../content/imgs/static/cloud.png" alt="cloud">
                         <span>Where are you going?</span>
-                        <i class="fa fa-caret-down pull-right"></i>
+                        <i id="toggleDes" class="icon_font">&#xe602;</i>
                     </a>
                 </div>
-                <ul id="city-location" class="unstyled city-location"><li><a href="/destination/Shanghai">Shanghai</a></li><li><a href="/destination/Beijing">Beijing</a></li><li><a href="/destination/Xian">Xi'an</a></li><li><a href="/destination/Chengdu">Chengdu</a></li><li><a href="/destination/Hangzhou">Hangzhou</a></li><li><a href="/destination/Guilin">Guilin</a></li><li><a href="/destination/Yunnan">Yunnan</a></li><li><a href="/destination/Yangtze">Yangtze River</a></li></ul>
+                <ul id="city-location" class="city-location" style="display:none">
+                    <li><a href="javascript:void(0);">Shanghai</a></li>
+                    <li><a href="javascript:void(0);">Beijing</a></li>
+                    <li><a href="javascript:void(0);">Xi'an</a></li>
+                    <li><a href="javascript:void(0);">Chengdu</a></li>
+                    <li><a href="javascript:void(0);">Hangzhou</a></li>
+                    <li><a href="javascript:void(0);">Guilin</a></li>
+                    <li><a href="javascript:void(0);">Yunnan</a></li>
+                    <li><a href="javascript:void(0);">Yangtze River</a></li>
+                </ul>
             </div>
         </div>
     </section>
     <script type="text/javascript" charset="utf-8" src = './travelling.js'></script>
+    <script type="text/javascript" charset="utf-8" >
+        //大图播放需要传入的元素
+        var pics = document.getElementsByClassName('container')[0];
+        pics = pics.children;
+        var lis = document.getElementsByClassName('dot')[0];
+        lis = lis.children;
+        var timer = 1000;
+        // 调用轮播图
+        FocusPicture(pics,lis);
+
+
+    </script>
 </body>
 </html>

@@ -46,7 +46,7 @@ a {
 }
 .pic{
     width: 100%;
-    transition: all .5s ease-in-out .2s;
+    transition: all 1.5s ease-in-out 1.2s;
 }
 .container{
 
@@ -75,6 +75,43 @@ a {
     border: 1px solid #0f0f0f;
     margin-right: 10px;
     background: white;
+}
+
+.item {
+    /* Choose the animation */
+    animation-name: movingBox;
+
+    /* The animation’s duration */
+    animation-duration: 1000ms;
+
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count:1;
+
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: alternate;
+}
+
+@keyframes movingBox {
+    0% {
+        transform: translate(0, -100px);
+        opacity: 0.3;
+    }
+
+    25% {
+        opacity: 0.6;
+    }
+
+    50% {
+        /*transform: translate(100px, 100px);*/
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
 }
 .des{
     position: relative;

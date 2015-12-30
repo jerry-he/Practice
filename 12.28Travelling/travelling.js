@@ -3,16 +3,26 @@
  */
     /*focus picture*/
     var FocusPicture = function(pics,lis,timer){
-        /*实现自动切换*/
-        var imgs=[];
-        for(var i=0;i<pics.length;i++){
-            var tmp = pics[i].children[0].children[0].src;
-            imgs.push(tmp);
-        }
-        setInterval(ShowPics(imgs),timer);
-        function ShowPics(){
+        var index=0;
+        setInterval(function(){
+            for(var m = 0 ; m<pics.length;m++){
+                pics[m].style.display = "none";
+            }
+            for(var m = 0 ; m<lis.length;m++){
+                lis[m].firstChild.style.background = "#eee";
+            }
+            pics[index].style.display= 'block';
+            lis[index].firstChild.style.background='green';
+            if(index < pics.length-1){
+                index++;
+            }
+            else{
+                index = 0;
+            }
 
-        }
+        },timer);
+
+
         /*nav焦点颜色切换*/
         function ToggleDot(el){
             var des = el.parentNode.parentNode;
@@ -26,8 +36,8 @@
         }
         /*焦点图片切换*/
         function TogglePicture(el){
-
-            var  index = el.getAttribute("id");
+            index = el.getAttribute("id");
+            console.log(index);
             for(var m = 0 ; m<pics.length;m++){
                 pics[m].style.display = "none";
 

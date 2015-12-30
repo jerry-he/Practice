@@ -162,7 +162,12 @@ a {
     margin-left: .3em;
 }
 .fa-caret-down:before {
-    content: "\f0d7";
+    content: "1";
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
 }
 ul.unstyled, ol.unstyled {
     margin-left: 0;
@@ -181,7 +186,7 @@ ul.unstyled, ol.unstyled {
     border-radius: 0 0 3px 3px;
     background: #ff8a00;
     display: block;
-    left: 240px;
+    left: 239px;
     top: 244px;
 }
 

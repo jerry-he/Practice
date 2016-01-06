@@ -22,8 +22,9 @@
     </div>
 </header>
     <section class="focusPicture">
-        <!--小图-->
+        <!--大图-->
         <div class="small">
+            <div class="leftArrow"><span> < </span></div>
             <ul class="container">
                 <li class="item" style="display: block;">
                     <div class="out_wrapper">
@@ -66,6 +67,7 @@
                     </div>
                 </li>
             </ul>
+            <div class="rightArrow"><span> > </span></div>
         </div>
         <div class="nav">
             <ul class="dot">
@@ -109,7 +111,7 @@
         pics = pics.children;
         var lis = document.getElementsByClassName('dot')[0];
         lis = lis.children;
-        var timer = 2000;
+        var timer = 5 * 1000;
         // 调用轮播图
         FocusPicture(pics,lis,timer);
 

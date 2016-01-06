@@ -1,0 +1,14 @@
+@charset "utf-8";
+#myCarousel{
+    top:-20px;
+}
+#bs-example-navbar-collapse-1 form{
+    position: relative;
+    left: 20%;
+}
+#bs-example-navbar-collapse-1 form div input{
+    min-width: 220px;
+}
+.navbar {
+    background: white;
+}

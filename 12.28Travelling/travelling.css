@@ -25,16 +25,16 @@ a {
 }
 /*focus picture*/
 .focusPicture{
-    width: 1020px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
 .small{
-    width: 1020px;
+    width: 100%;
     margin: 0 auto;
 }
 .container li{
-    width: 1020px;
+    width: 100%;
     float: left;
     display: none;
     height: 488px;
@@ -57,7 +57,7 @@ a {
 }
 .nav{
     position: relative;
-    bottom: 40px;
+    bottom: 480px;
 }
 
 .dot li{
@@ -67,13 +67,39 @@ a {
     display: inline-block;
     z-index: 1;
 }
+.leftArrow{
+    display: inline-block;
+    position: absolute;
+    top: 220px;
+    color: red;
+}
+.leftArrow span,.rightArrow span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 30px;
+    background: #eee;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    cursor: pointer;
+    border: 1px solid #333333;
+    opacity: 1;
+}
+.rightArrow{
+    position: absolute;
+    right: 0;
+    color: red;
+    top: 220px;
+}
+
 .dotFigure{
     display: inline-block;
     width: 12px;
     height: 12px;
     border-radius: 12px;
     border: 1px solid #0f0f0f;
-    margin-right: 10px;
+    margin-right: 22px;
     background: white;
 }
 
@@ -82,7 +108,7 @@ a {
     animation-name: movingBox;
 
     /* The animation’s duration */
-    animation-duration: 1000ms;
+    animation-duration: 1500ms;
 
     /* The number of times we want
         the animation to run */
@@ -95,38 +121,66 @@ a {
 
 @keyframes movingBox {
     0% {
-        transform: translate(0, -100px);
         opacity: 0.3;
     }
 
     25% {
-        opacity: 0.6;
+        rotation: 180deg;
     }
 
     50% {
-        /*transform: translate(100px, 100px);*/
         opacity: 0.8;
     }
 
     100% {
-        transform: translate(0, 0);
         opacity: 1;
     }
 }
 .des{
     position: relative;
-    left: 40px;
-    width: 600px;
+    left: 620px;
+    width: 400px;
     background: white;
-    bottom: 100px;
+    bottom: 80px;
     border: 3px solid rgba(0,0,0,0.4);
     border-radius: 9px;
-    opacity: 0.8;
     display: inline-block;
     max-height: 80px;
     overflow: hidden;
     text-indent: 30px;
     line-height: 24px;
+    animation-name: desMoving;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+}
+@keyframes desMoving {
+    0% {
+        transform: translate(-100, 0);
+        opacity: 0;
+
+    }
+
+    25% {
+        opacity: 0.2;
+        rotation: 90deg;
+    }
+
+    50% {
+        /*transform: translate(100px, 100px);*/
+        opacity: 0.4;
+        rotation: 190deg;
+    }
+    75% {
+        /*transform: translate(100px, 100px);*/
+        opacity: 0.6;
+        rotation: 290deg;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 0.8;
+        rotation: 360deg;
+    }
 }
 /*character*/
 .city{

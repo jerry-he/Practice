@@ -21,12 +21,6 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <a class="navbar-brand" href="#">IReMatch Travelling</a>
         </div>
 
@@ -40,7 +34,7 @@
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">SignUp</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal">SignUp</a></li>
                 <li><a href="#">Login</a></li>
                 <li><a href="#">Tailor-made Service</a></li>
                 <li><a href="#">Help</a></li>
@@ -48,6 +42,12 @@
         </div>
     </div>
 </nav>
+    <!--Register  Modal -->
+     <div  class="modal fade s-log center-block" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div>111</div>
+
+
+    </div>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -323,6 +323,6 @@
 <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
 <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 </body>
 </html>

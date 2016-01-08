@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Machinery Site</title>
+    <meta name="keywords" content="Things to do in China, China Private Tours, China Travel, Chinese Culture, Trafish, English Tour Guide, Private Tour Guides, China Offbeat Travel,Trafish"/>
+    <meta name="description" content="Trafish is an online travel platform to connect travelers and local insiders. On Trafish, you can find niche, offbeat and interesting tours and activities that general travel agencies might not run." />
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="trade.css">
+</head>
+<body>
+    <div class="share" style="position: relative;">
+        <span class="focusMe">Followed Us</span>
+        <ul>
+            <li>facebook</li>
+            <li>what'sapp</li>
+            <li>weChat</li>
+        </ul>
+    </div>
+    <header>
+        <nav class="navBar">
+            <div class="brand">
+                <span>
+                    <a href="/"><img src="" alt="">sort</a>
+                </span>
+            </div>
+            <div class="wrapper">
+                <ul>
+                    <li class="item">Product</li>
+                    <li class="item">Vedio</li>
+                    <li class="item">Contact Us</li>
+                    <li class="item">FAQ's</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="focusPicture">
+        <!--大图-->
+        <div class="small">
+            <div class="leftArrow"><span> < </span></div>
+            <ul class="container">
+                <li class="item" style="display: block;">
+                    <div class="out_wrapper">
+                        <img src="../content/imgs/Trade/carousel/1.jpg" alt="" class="pic"/>
+                        <p class="des">青藏高原是世界上平均海拔最高的高原，其中青藏铁路是世界铁路历史的奇迹，伟大的中国人民
+                            克服重重困难，在崇山峻岭间开凿出了这一条生命和希望的通道
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="out_wrapper">
+                        <img src="../content/imgs/Trade/carousel/2.jpg" alt="" class="pic"/>
+                        <p class="des">青藏高原是世界上平均海拔最高的高原，其中青藏铁路是世界铁路历史的奇迹，伟大的中国人民
+                            克服重重困难，在崇山峻岭间开凿出了这一条生命和希望的通道
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="out_wrapper">
+                        <img src="../content/imgs/Trade/carousel/3.jpg" alt="" class="pic"/>
+                        <p class="des">青藏高原是世界上平均海拔最高的高原，其中青藏铁路是世界铁路历史的奇迹，伟大的中国人民
+                            克服重重困难，在崇山峻岭间开凿出了这一条生命和希望的通道
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="out_wrapper">
+                        <img src="../content/imgs/Trade/carousel/4.jpg" alt="" class="pic"/>
+                        <p class="des">青藏高原是世界上平均海拔最高的高原，其中青藏铁路是世界铁路历史的奇迹，伟大的中国人民
+                            克服重重困难，在崇山峻岭间开凿出了这一条生命和希望的通道
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="out_wrapper">
+                        <img src="../content/imgs/Travelling/43_20151129193840165.jpg" alt="" class="pic"/>
+                        <p class="des">青藏高原是世界上平均海拔最高的高原，其中青藏铁路是世界铁路历史的奇迹，伟大的中国人民
+                            克服重重困难，在崇山峻岭间开凿出了这一条生命和希望的通道
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div class="rightArrow"><span> > </span></div>
+        </div>
+        <div class="nav">
+            <ul class="dot">
+                <li><span class="dotFigure" style="background: green"></span></li>
+                <li><span class="dotFigure"></span></li>
+                <li><span class="dotFigure"></span></li>
+                <li><span class="dotFigure"></span></li>
+                <li><span class="dotFigure"></span></li>
+            </ul>
+        </div>
+        <div class="city">
+            <div class="text-center">
+                <h1>Discover a Unique China</h1>
+                <h2>Find fascinating tours and experiences hand-picked by the local travel experts</h2>
+            </div>
+        </div>
+    </section>
+    <section class="produce">
+        <div class="product">
+            111
+        </div>
+    </section>
+    <script type="text/javascript" charset="utf-8" src = './trade.js'></script>
+    <script type="text/javascript" charset="utf-8" >
+        //大图播放需要传入的元素
+        var pics = document.getElementsByClassName('container')[0];
+        pics = pics.children;
+        var lis = document.getElementsByClassName('dot')[0];
+        lis = lis.children;
+        var timer = 5 * 1000;
+        // 调用轮播图
+        FocusPicture(pics,lis,timer);
+
+
+    </script>
+</body>
+</html>

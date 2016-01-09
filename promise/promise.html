@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="test">
+        test
+    </div>
+    <!-- /#test -->
+    <script type="application/javascript" charset="UTF-8">
+        Promise.prototype.then = function(resolve, reject) {
+            var next = this._next || (this._next = Promise());
+            var status = this.status;
+            var x;
+            console.log(this._next);
+            if('pending' === status) {
+                isFn(resolve) && this._resolves.push(resolve);
+                isFn(reject) && this._rejects.push(reject);
+                return next;
+            }
+
+            if('resolved' === status) {
+                if(!isFn(resolve)) {
+                    next.resolve(resolve);
+                } else {
+                    try {
+                        x = resolve(this.value);
+                        resolveX(next, x);
+                    } catch(e) {
+                        this.reject(e);
+                    }
+                }
+                return next;
+            }
+
+            if('rejected' === status) {
+                if(!isFn(reject)) {
+                    next.reject(reject);
+                } else {
+                    try {
+                        x = reject(this.reason);
+                        resolveX(next, x);
+                    } catch(e) {
+                        this.reject(e);
+                    }
+                }
+                return next;
+            }
+        };
+
+
+        var left = function(){
+            el.style.left = (el.offsetLeft + 200) + 'px';
+        };
+
+        var el = document.getElementById('test');
+        // 臭名远播的“回调地狱(callback hell)”
+        setTimeout(function(){
+            left(function(){
+                setTimeout(function(){
+                    left(function(){
+                        setTimeout(function(){
+                            left();
+
+                        },2000);
+                    });
+                }, 2000);
+                console.log("111")
+            });
+
+        }, 2000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+header{
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    background: #3e8f3e;
+    height: 36px;
+}
+
+.wrapper li{
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    text-decoration: cadetblue;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 5px 3px 5px;
+}
+.wrapper li:first-child{
+    margin-right: 0;
+}
+.wrapper li:hover{
+    background: #eee;
+
+}
+
+.brand{
+    display: inline;
+}
+.wrapper{
+    display: inline-block;
+    float: right;
+}
+.brand a{
+    text-transform: capitalize;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.share li{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    text-transform: capitalize;
+    line-height: 30px;
+    cursor: pointer;
+}
+.share ul{
+    display: inline;
+}
+.share{
+    width: 1020px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*carousel picture*/
+/*focus picture*/
+.focusPicture {
+    width: 1018px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.5);
+    height: 488px;
+}
+.small{
+    width: 100%;
+    margin: 0 auto;
+}
+.container li{
+    width: 100%;
+    float: left;
+    display: none;
+    height: 488px;
+
+}
+.out_wrapper{
+
+    overflow: hidden;
+}
+.pic{
+    width: 100%;
+    transition: all 1.5s ease-in-out 1.2s;
+}
+.container{
+
+    float: left;
+    padding-left: 0;
+    overflow: hidden;
+
+}
+.nav{
+    position: relative;
+    bottom: 480px;
+}
+
+.dot li{
+    float: right;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+    z-index: 1;
+}
+.leftArrow{
+    display: inline-block;
+    position: absolute;
+    top: 220px;
+    color: red;
+}
+.leftArrow span,.rightArrow span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 30px;
+    background: #eee;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    cursor: pointer;
+    border: 1px solid #333333;
+    opacity: 1;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.leftArrow span:hover,.rightArrow span:hover{
+    background: #1b6d85;
+    opacity: 0.8;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.rightArrow{
+    position: absolute;
+    right: 0;
+    color: red;
+    top: 220px;
+}
+
+.dotFigure{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border: 1px solid #0f0f0f;
+    margin-right: 22px;
+    background: white;
+}
+
+.item {
+    /* Choose the animation */
+    animation-name: movingBox;
+
+    /* The animation’s duration */
+    animation-duration: 1500ms;
+
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count:1;
+
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: alternate;
+}
+
+@keyframes movingBox {
+    0% {
+        opacity: 0.3;
+    }
+
+    25% {
+        rotation: 180deg;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.des{
+    position: relative;
+    left: 600px;
+    width: 400px;
+    background: white;
+    bottom: 100px;
+    border: 3px solid rgba(0,0,0,0.4);
+    border-radius: 9px;
+    display: inline-block;
+    max-height: 80px;
+    overflow: hidden;
+    text-indent: 30px;
+    line-height: 24px;
+    animation-name: desMoving;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+}
+@keyframes desMoving {
+    0% {
+        transform: translate(-100, 0);
+        opacity: 0;
+
+    }
+
+    25% {
+        opacity: 0.2;
+        rotation: 90deg;
+    }
+
+    50% {
+        /*transform: translate(100px, 100px);*/
+        opacity: 0.4;
+        rotation: 190deg;
+    }
+    75% {
+        /*transform: translate(100px, 100px);*/
+        opacity: 0.6;
+        rotation: 290deg;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 0.8;
+        rotation: 360deg;
+    }
+}
+.city {
+    margin-left: -400px;
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    color: #fff;
+    z-index: 800;
+    width: 800px;
+}
+.text-center {
+    text-align: center;
+}
+.city h1 {
+    line-height: 50px;
+    font-size: 48px;
+    font-weight: 800;
+    text-shadow: 1px 2px 5px #333;
+}
+.city h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-shadow: 1px 2px 5px #333;
+}

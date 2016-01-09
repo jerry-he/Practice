@@ -2,6 +2,10 @@
 #myCarousel{
     top:-20px;
 }
+.navbar-header a,.container div form,.container div ul li a{
+    height: 50px;
+    line-height: 40px;
+}
 #bs-example-navbar-collapse-1 form{
     position: relative;
     left: 20%;
@@ -10,5 +14,173 @@
     min-width: 220px;
 }
 .navbar {
+    background: white;
+}
+#Destinations{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    word-spacing: 40px;
+    color: #00B7FF;
+}
+.bg-custom{
+    background: url(../../../content/imgs/Travelling/static/citysbackground.jpg) top center repeat;
+}
+.block-custom {
+    background: url(../../../content/imgs/Travelling/static/custombg.jpg) top center no-repeat;
+    height: 145px;
+    color: #fff;
+    padding-top: 35px;
+}
+.block-custom h2 {
+    font-size: 26px;
+    line-height: 1.2em;
+    text-rendering: optimizeLegibility;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.span9 {
+    width: 700px;
+    margin-top: -30px;
+    font-weight: bolder;
+}
+.span3 {
+    width: 220px;
+}
+.span4 {
+    width: 300px;
+    color: white;
+}
+.footer .f-font {
+    font-family: lhandw, Verdana, sans-serif;
+}
+.footer p {
+    margin-bottom: 5px;
+}
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
+.block-custom .btn {
+    margin-top: 30px;
+}
+.become-tra {
+    background: url("../../../content/imgs/Travelling/static/youpeng.jpg") top center no-repeat #efefef;
+    padding-top: 60px;
+    border-top: 1px solid #DBDBDB;
+}
+.span6 {
+    width: 460px;
+}
+.become-tra h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 55px;
+}
+.become-tra .media {
+    margin-bottom: 45px;
+}
+.media>.pull-left {
+    margin-right: 10px;
+}
+.sicon-exp-small {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: 0 -100px;
+}
+.sicon-sat-small {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: -100px -100px;
+}
+.sicon {
+    background-image: url(../../../content/imgs/Travelling/static/tailormadeicon.png);
+}
+.pull-left {
+    float: left;
+}
+.sicon-gua-small {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: -200px -100px;
+}
+.footer {
+    background: #415065;
+    padding: 20px 0 5px 0;
+    min-height: 200px;
+}
+.span4 {
+    width: 300px;
+}
+.support {
+    width: 120px;
+    float: left;
+    margin-left: 80px;
+}
+.company {
+    width: 120px;
+    float: left;
+    margin-left: 80px;
+}
+.sns-info {
+    width: 200px;
+    float: left;
+    margin-left: 40px;
+    position: relative;
+}
+.sns-info h4 {
+    margin-bottom: 10px;
+}
+.sns-info li a i{
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.thumbnail .inner{
+    height: 121px;
+    display: block;
+    overflow: hidden;
+}
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.thumbnail img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    width: 253px;
+    height:121px ;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+@media (min-width: 992px){
+    .col-md-6 {
+        width: 50%;
+    }}
+@media (min-width: 992px){
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+            float: left;
+    }}
+
+
+/*Register Module*/
+.s-log {
+    width: 400px;
     background: white;
 }

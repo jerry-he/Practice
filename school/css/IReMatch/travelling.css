@@ -13,9 +13,9 @@
 #bs-example-navbar-collapse-1 form div input{
     min-width: 220px;
 }
-/*.navbar {
+.navbar {
     background: white;
-}*/
+}
 #Destinations{
     text-align: center;
     height: 40px;

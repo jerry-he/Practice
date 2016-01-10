@@ -2,26 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
     <title>table</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
 </head>
-<body>
-    <table border="1" style="width: 1020px;margin: 0 auto">
-    <th >
+<body class="container">
+    <table class="table table-bordered table-responsive">
+    <caption style="text-align: center" >
         <span>校园e贷申请表</span>
-    </th>
-    <tr>
-        <td><span>您的贷款用途</span></td>
-        <td><span>注：贷款不得用于以下用途</span></td>
-    </tr>
+    </caption>
     <tr>
         <td>
-            <input type="checkbox" value="日常生活消费">
-            <input type="checkbox" value="旅游支出">
-            <input type="checkbox" value="医疗支出">
-            <input type="checkbox" value="应急周转">
-            <input type="checkbox" value="学费支出">
-            <input type="checkbox" value="创业投资">
-            <input type="checkbox" value="其它，请详细说明">
+            <form role="form">
+                    <input type="text" class="form-control" placeholder="您的贷款用途">
+            </form>
+        </td>
+        <td class="warning"><span style="position: relative;bottom: -16px;">注：贷款不得用于以下用途</span></td>
+    </tr>
+    <tr>
+        <td style="width: 50%" >
+
+            <form role="form">
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="">
+                        日常生活消费
+                    </label>
+                    <label>
+                        <input type="checkbox" value="">
+                        旅游支出
+                    </label>
+                    <label>
+                        <input type="checkbox" value="">
+                        医疗支出
+                    </label>
+                    <label>
+                        <input type="checkbox" value="">
+                        学费支出
+                    </label>
+                    <label>
+                        <input type="checkbox" value="">
+                        创业投资
+                    </label>
+                    <label style="width: 100%">
+                        <input type="checkbox" value="">
+                        其它，请详细说明 <input style="width: 78%" type="text" />
+                    </label>
+                </div>
+            </form>
         </td>
         <td></td>
     </tr>

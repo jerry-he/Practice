@@ -178,5 +178,95 @@
             float: left;
     }}
 
+/*custom*/
+#text-custom{
+    position: relative;
+    top: -300px;
+    color: white;
+    font-family: cursive;
+}
+.content{
+    position: relative;
+    top: 87px;
+}
+.wrap {
+    width: 100%;
+}
+.what-offer {
+    padding: 50px 0;
+    position: relative;
+    clear: both;
+    background: #fff;
+}
+.span4 {
+    width: 366px;
+}
+.sicon-exp {
+    width: 83px;
+    height: 83px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: 0 0;
+}
+.sicon-time {
+    width: 83px;
+    height: 83px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: -100px 0;
+}
+.what-offer p, .how-work p {
+    color: #333;
+}
+.how-work {
+    padding: 30px 0;
+    border-top: 1px solid #dbdbdb;
+}
+.sicon-money {
+    width: 83px;
+    height: 83px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: -200px 0;
+}
+.span2 {
+    width: 140px;
+}
+.sicon-sat {
+    width: 83px;
+    height: 83px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: -300px 0;
+}
+h4 {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(102,102,102);
+}
+h3 {
+    font-size: 24.5px;
+    text-rendering: optimizelegibility;
+    font-weight: bolder;
+}
+.sicon-gua {
+    width: 83px;
+    height: 83px;
+    display: inline-block;
+    margin: 0 auto;
+    background-position: -400px 0;
+}
+#offerYou{
+    position: relative;
+    top: -39px;
+    font-size: 30px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+}
 
-/*Register Module*/
+.jumbotron p{
+    text-align: left;
+}
+.jumbotron p:last-child{
+    text-align: center;
+}

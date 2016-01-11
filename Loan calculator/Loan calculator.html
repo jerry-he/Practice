@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="money">
+            <label for="money">
+                <input type="number" id="money" value="1"/>
+            </label>
+        </div>
+        <div class="time">
+            <label for="time">
+                <input type="number" id="time" value="1" />
+            </label>
+        </div>
+        <div class="consume">
+            <label for="consume">
+                <input type="number" id="consume" value="9" />
+            </label>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" charset="utf-8" >
+        var money   =  document.getElementById('money');
+            totalMoney =  money.value;
+        var time    = document.getElementById('time');
+        V_time  =  time.value;
+        money.addEventListener('input',function total(e){
+            totalMoney = e.target.value * V_time;
+            console.log(totalMoney);
+        },false);
+
+        time.addEventListener('input',function total(e){
+            totalMoney = V_money * e.target.value;
+        },false);
+        var consume = document.getElementById('consume');
+        consume.value = totalMoney;
+
+    </script>
+</body>
+</html>

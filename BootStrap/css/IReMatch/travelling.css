@@ -1,7 +1,4 @@
 @charset "utf-8";
-#myCarousel{
-    top:-20px;
-}
 .navbar-header a,.container div form,.container div ul li a{
     height: 50px;
     line-height: 40px;
@@ -280,4 +277,16 @@ h3 {
     position: relative;
     top: 10px;
     left: 5px;
+}
+.float-price-large {
+    position: relative;
+    float: right;
+    margin-top: -120px;
+    background: #0081DA;
+    padding: 20px;
+    color: #fff;
+}
+.float-price-large .price-num {
+    font-size: 28px;
+    padding: 0 9px;
 }

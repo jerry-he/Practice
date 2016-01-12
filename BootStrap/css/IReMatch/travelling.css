@@ -270,3 +270,14 @@ h3 {
 .jumbotron p:last-child{
     text-align: center;
 }
+
+/*tailor service*/
+#roomType{
+    margin-top: 15px;
+    background: #f7f7f7;
+}
+#roomNum{
+    position: relative;
+    top: 10px;
+    left: 5px;
+}

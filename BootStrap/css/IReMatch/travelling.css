@@ -290,3 +290,11 @@ h3 {
     font-size: 28px;
     padding: 0 9px;
 }
+
+.tourInfo li{
+    width: 40%;
+    float: left;
+    display: inline-block;
+    line-height: 32px;
+    text-transform: capitalize;
+}

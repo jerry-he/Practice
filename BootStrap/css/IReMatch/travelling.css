@@ -298,3 +298,23 @@ h3 {
     line-height: 32px;
     text-transform: capitalize;
 }
+.navbar-inner {
+    background: #118ee8;
+}
+.menuItem a{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+#preview_nav a:hover{
+    background-color:#118ee8;
+    border: none;
+}
+
+.img-show-item li {
+    width: 150px;
+    height: 80px;
+    overflow: hidden;
+}

@@ -5,6 +5,7 @@
     $.get('example_collection.json', function(data){
             $("#name").typeahead({ source:data });
         },'json');
+
     /*hotel select*/
     $('.hotel_select').click(function(){
         $('#roomType').removeClass('hidden')
@@ -12,3 +13,29 @@
     $('.hotel_select_not').click(function(){
         $('#roomType').addClass('hidden')
     });
+    /*鼠标跟随显示大图*/
+    $(".preview").preview();
+
+
+
+var JSON = {
+    "url": "www.baidu.com",
+    "data": [
+        {
+            "name": "luoyang",
+
+            "sort": "1",
+
+            "img":"../../1.jpg",
+            "x_y":[22,10]
+        },
+        {
+            "name": "zhengzhou",
+
+            "sort": "2",
+
+            "img":"../../2.jpg",
+            "x_y":[22,10]
+        },
+    ]
+}

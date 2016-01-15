@@ -13,18 +13,21 @@
 <div id="container"></div>
 <script>
     var map = new AMap.Map('container', {
-        center: [116.306206, 39.975468],
-        zoom:2
+        center: [106.306206, 36.975468],
+        zoom:5,
+        animateEnable:false
+
     });
-    var lineArr = [
-        [116.368904, 39.913423],
-        [113.625069,34.749794],
-        [108.939743,34.344428],
-        [106.547669,29.549747],
-        [104.066541,30.572269],
-        [101.778224,36.617134],
-        [87.616997,43.828211]
-    ];
+    var lineArr = [];
+    //取出父页面坐标集合
+    var data=window.parent.JSON.data;
+    for(var i=0;i<data.length;i++){
+        //寻获集合获取坐标
+        var itme=data[i].x_y;
+        //加入数组集
+        lineArr.push(itme);
+    }
+
     var polyline = new AMap.Polyline({
         path: lineArr,          //设置线覆盖物路径
         strokeColor: "#3366FF", //线颜色
@@ -40,12 +43,13 @@
     create(); //自定义图层
     function create() {
         map.plugin(['AMap.CustomLayer', 'AMap.DistrictSearch'], function() {
-            var search = new AMap.DistrictSearch();
+            var des = new AMap.DistrictSearch();
             search.search('中国', function(status, data) {
                 if (status === 'complete') {
-                    provinces = data['districtList'][0]['districtList']
+                    provinces = data['districtList'][0]['districtList'];
+
                     for (var i = 0; i < provinces.length; i += 1) {
-                        provinces[i].radious = Math.max(2, Math.floor(Math.random() * 10));
+                        provinces[i].radious = Math.max(2, Math.floor(Math.random() * 100));
                     }
                     redPoint = buildPoint('red');
                     bluePoint = buildPoint('blue');
@@ -53,7 +57,7 @@
                     canvas.width = map.getSize().width;
                     canvas.height = map.getSize().height;
                     var cus = new AMap.CustomLayer(canvas, {
-                        zooms: [3, 8],
+                        zooms: [3, 20],
                         zIndex: 12
                     });
                     cus.render = onRender;
@@ -92,7 +96,7 @@
     function draw() {
         var point = colorFlag ? bluePoint : redPoint;
         var context = canvas.getContext('2d');
-        context.clearRect(0, 0, canvas.width, canvas.height)
+        context.clearRect(0, 0, canvas.width, canvas.height);
         for (var i = 0; i < provinces.length; i += 1) {
             var province = provinces[i];
             var radious = province.radious;

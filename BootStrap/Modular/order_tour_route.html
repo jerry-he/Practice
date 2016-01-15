@@ -20,14 +20,15 @@
             <div class="col-sm-12">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                     <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <ol id= "carousel-indicators" class="carousel-indicators">
+                        <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1" class=""></li>
                         <li data-target="#myCarousel" data-slide-to="2" class=""></li>
                         <li data-target="#myCarousel" data-slide-to="3" class=""></li>
                         <li data-target="#myCarousel" data-slide-to="4" class=""></li>
-                        <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="5" class=""></li>-->
                     </ol>
+
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img class="first-slide" src="../../content/imgs/Travelling/preview/43_20141223191505208.jpg" alt="First slide">
@@ -54,6 +55,12 @@
 
                         </div>
                     </div>
+                    <script>
+                        var imgLength = document.getElementsByClassName('item').length;
+                        for (var i= 0;i++;i<imgLength){
+                            var dom = document.
+                        }
+                    </script>
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -516,7 +523,10 @@
                         </div>
                         <div id="map">
                             <h2 class="text-center">Map</h2>
-                            <div><img src="http://www.itrafish.com/pic/201511/29/43_20151129194602206.jpg"></div>
+                            <div class="col-sm-12">
+                                <!--<img src="http://www.itrafish.com/pic/201511/29/43_20151129194602206.jpg">-->
+                                <iframe src="./map.html" frameborder="0"  class="col-sm-12" style="height:600px"></iframe>
+                            </div>
 
                         </div>
                         <div id="qa">

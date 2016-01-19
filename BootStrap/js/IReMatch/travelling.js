@@ -16,7 +16,25 @@
     /*鼠标跟随显示大图*/
     $(".preview").preview();
 
+    /*fixed tour navigation*/
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            var topHeight = document.body.scrollTop;
+            var des = document.getElementById('info-nav');
 
+            if(topHeight > 1080){
+                $(des).css("position", "fixed");
+                $(des).css("top",'0');
+                $(des).css("z-index",'10');
+                $(des).addClass('container')
+            }
+            else{
+                $(des).css("position", "relative");
+                $(des).css("top",'0');
+            }
+        })
+    });
+    /*print object attr*/
 
 var JSON = {
     "url": "www.baidu.com",

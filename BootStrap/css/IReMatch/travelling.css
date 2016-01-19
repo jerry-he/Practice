@@ -1,5 +1,5 @@
 @charset "utf-8";
-.navbar-header a,.container div form,.container div ul li a{
+.navbar-header a,.container div form,.container div ul li {
     height: 50px;
     line-height: 40px;
 }
@@ -281,9 +281,9 @@ h3 {
 .float-price-large {
     position: relative;
     float: right;
-    margin-top: -120px;
+    margin-top: -50px;
     background: #0081DA;
-    padding: 20px;
+    padding: 5px;
     color: #fff;
 }
 .float-price-large .price-num {
@@ -298,15 +298,36 @@ h3 {
     line-height: 32px;
     text-transform: capitalize;
 }
+.tourInfo li:nth-child(2n){
+    float: right;
+}
+.tourInfo li:nth-child(3)
+{
+    width: 60%;
+}
 .navbar-inner {
     background: #118ee8;
 }
-.menuItem a{
+.info-detail h2 {
+    border-top: 1px solid #118ee8;
+    border-bottom: 1px solid #118ee8;
+    line-height: 40px;
+    color: #118ee8;
+    font-size: 28px;
+}
+.day-title .titile-info-box {
+    border-left: 2px dashed #118ee8;
+    margin-left: -39px;
+    padding-left: 32px;
+    margin-bottom: 10px;
+}
+#preview_nav .menuItem a{
     color: white;
     font-size: 18px;
     font-weight: bolder;
     text-transform: capitalize;
-    line-height: 20px;
+    line-height: 30px;
+    border-bottom: none;
 }
 #preview_nav a:hover{
     background-color:#118ee8;
@@ -317,4 +338,58 @@ h3 {
     width: 150px;
     height: 80px;
     overflow: hidden;
+}
+
+#preview_nav li{
+    width: 24%;
+}
+.s-icon {
+    background-image: url(../../../content/imgs/Travelling/static/script.png);
+    display: inline-block;
+}
+.day-title span {
+    position: absolute;
+    left: 42px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 24px;
+    color: #118ee8;
+    background-color: #f8f8f8;
+}
+.day-title {
+    padding-left: 110px;
+    position: relative;
+    min-height: 80px;
+    z-index: -1;
+}
+.schedule-day .schedule {
+    margin-left: 70px;
+    margin-bottom: 10px;
+    border-left: 2px dashed #118ee8;
+    padding: 0 0 10px 30px;
+}
+.day-title .titile-info {
+    background: #F3F3F3;
+    padding: 10px;
+}
+.s-icon-title {
+    width: 60px;
+    height: 80px;
+    background-position: -600px 0;
+}
+.day-title .titile-info-box {
+    border-left: 2px dashed #118ee8;
+    margin-left: -39px;
+    padding-left: 32px;
+    margin-bottom: 10px;
+}
+.schedule-day .schedule .schedule-info {
+    padding-top: 12px;
+}
+.info-detail h2 {
+    border-top: 1px solid #118ee8;
+    border-bottom: 1px solid #118ee8;
+    line-height: 40px;
+    color: #118ee8;
+    font-size: 28px;
 }

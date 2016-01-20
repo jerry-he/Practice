@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>河南花笺互动软件科技有限公司官网</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
     <link href="./css/hjkj.css" rel="stylesheet">
 </head>
 <body>
@@ -14,9 +15,9 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="/" style="display: inline">
-                    <span>Brand</span>
+                <a class="navbar-brand" href="/">
+                    <img alt="Brand" src="./images/logo.png" style="display: inline;width: 32px">
+                    <span>HuaJian  Interaction</span>
                 </a>
             </div>
 
@@ -26,37 +27,42 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">新闻中心 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+                        <ul  class="dropdown-menu drop1">
                             <li><a href="#">公司动态</a></li>
                             <li><a href="#">行业新闻</a></li>
                             <li><a href="#">公告通知</a></li>
                         </ul></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品与服务 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">web产品</a></li>
-                            <li><a href="#">培训产品</a></li>
+                        <ul  class="dropdown-menu drop1">
+                            <li><a href="#">国际化电子商务解决方案</a></li>
+                            <li><a href="#">多语言社交平台</a></li>
+                            <li><a href="#">互联网+软件定制开发</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">前端开发工程师</a></li>
+                            <li><a href="#">C#开发工程师</a></li>
+                            <li><a href="#">网络运维工程师</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">企业与文化 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu drop1">
                             <li><a href="#">公司简介</a></li>
                             <li><a href="#">企业文化</a></li>
                             <li><a href="#">团队风采</a></li>
                             <li><a href="#">社会责任</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li  class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">诚聘英才 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+                        <ul  class="dropdown-menu drop1">
                             <li><a href="#">最新招聘</a></li>
                             <li><a href="#">晋升通道</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">联系我们 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
+                        <ul  class="dropdown-menu drop1">
                             <li><a href="#">地址</a></li>
                             <li><a href="#">留言</a></li>
                         </ul>
@@ -68,7 +74,7 @@
     <!--轮播图-->
     <div id="myCarousel" style="top: -20px;" class="carousel slide" data-ride="carousel" >
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol id="focus_dot" class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1" class=""></li>
             <li data-target="#myCarousel" data-slide-to="2" class=""></li>
@@ -76,67 +82,70 @@
             <li data-target="#myCarousel" data-slide-to="4" class=""></li>
             <li data-target="#myCarousel" data-slide-to="5" class=""></li>
         </ol>
-        <div class="carousel-inner" role="listbox" style="height: 500px;overflow-y: hidden">
+        <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="first-slide" src="./images/index/1.jpg" alt="First slide">
+                <img class="third-slide" src="./images/index/6.png" alt="Third slide">
                 <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Example headline.</h1>
-                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    <div id="item6" class="carousel-caption">
+                        <h1>助力互联网+</h1>
+                        <h1>帮助中国传统制造业升级！</h1>
+                        <p>中国传统制造企业转型工业4.0中面临着信息化基础薄弱难以快速收集到市场需求，难以转型按需定制进入国际市场的电子商务门槛过高等一系列问题</p>
+                        <br />
+                        <p>花笺科技国际化电子商务平台从营销-沟通-支付-商城帮助传统制造型企业低成本快捷收集来自全球的订单，通过集成国际化展示（多语言）、全球收款（paypal/check2）等主力
+                            成就中国版工业4.0，实现制造的崛起！
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="second-slide" src="./images/index/2.jpg" alt="Second slide">
+                <img class="first-slide" src="./images/index/1.png" alt="First slide">
                 <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <div id="item1" class="carousel-caption">
+                        <h1>用实力成就互联网+就业梦想</h1>
+                        <h1>用专业为你的梦想保驾护航</h1>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="third-slide" src="./images/index/3.jpg" alt="Third slide">
+                <img class="second-slide" src="./images/index/2.png" alt="Second slide">
                 <div class="container">
-                    <div class="carousel-caption">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <div id="item2" class="carousel-caption">
+                        <p>自信源自于内在，我们提供的不仅仅是知识，更重要的是思考</p>
+
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="third-slide" src="./images/index/4.jpg" alt="Third slide">
+                <img class="third-slide" src="./images/index/3.png" alt="Third slide">
                 <div class="container">
-                    <div class="carousel-caption">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <div id="item3" class="carousel-caption">
+                        <h1>全方位营销管理支持—<span>E-CRM</span></h1>
+                        <h1><span>产品好</span>不过是开端而已</h1>
+                            <h1>通过我们的服务让您<span>赚钱</span>才是<span>王道!</span></h1>
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="third-slide" src="./images/index/5.jpg" alt="Third slide">
+                <img class="third-slide" src="./images/index/4.png" alt="Third slide">
                 <div class="container">
-                    <div class="carousel-caption">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <div id="item4" class="carousel-caption">
+                        <p>全面打开你的智慧之窗，成就你的大神之路</p>
+
                     </div>
                 </div>
             </div>
             <div class="item">
-                <img class="third-slide" src="./images/index/6.jpg" alt="Third slide">
+                <img class="third-slide" src="./images/index/5.png" alt="Third slide">
                 <div class="container">
-                    <div class="carousel-caption">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <div id="item5" class="carousel-caption">
+                        <h1>高性能的web解决方案，强大不止一面</h1>
+                        <p>充分利用分布式和云计算以及高效缓存，实现可伸缩的部署，强大为你而生！让你专注于业务，剩下的我们全帮您搞定！</p>
+                        <br />
+                        <p>全面兼容各种终端，一次开发，全网运行，无论是手机，平板也或者是电脑，均可以完美适配！</p>
                     </div>
                 </div>
             </div>
+
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -147,7 +156,51 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <div class="container">
+        <div class="row ">
+            <a class="block col-md-3 col-sm-6" href="#">
+                <div class="big-icon">
+                    <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+                </div>
+                <h3 class="text-center">简洁</h3>
 
+                <p>基于开放标准的基础架构, 分布式体系 跨平台支持能力 易管理性和可操作性 可扩充性和复用性</p>
+            </a>
+            <a class="block col-md-3 col-sm-6" href="#">
+                <div class="big-icon"><span class="icon icon-mug"></span></div>
+                <h3 class="text-center">易用</h3>
+
+                <p>基于开放标准的基础架构, 分布式体系 跨平台支持能力 易管理性和可操作性 可扩充性和复用性</p>
+            </a>
+            <a class="block col-md-3 col-sm-6" href="#">
+                <div class="big-icon">
+                    <span class="icon icon-stats-dots"></span>
+                </div>
+                <h3 class="text-center">高效</h3>
+
+                <p>基于开放标准的基础架构, 分布式体系 跨平台支持能力 易管理性和可操作性 可扩充性和复用性</p>
+            </a>
+            <a class="block col-md-3 col-sm-6" href="#">
+                <div class="big-icon">
+                    <span class="icon icon-shield"></span>
+                </div>
+                <h3 class="text-center">安全</h3>
+
+                <p>基于开放标准的基础架构, 分布式体系 跨平台支持能力 易管理性和可操作性 可扩充性和复用性</p>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                1
+            </div>
+            <div class="col-sm-4">
+                2
+            </div>
+            <div class="col-sm-4">
+                3
+            </div>
+        </div>
+    </div>
 
 
 

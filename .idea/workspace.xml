@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7745994-8908-44be-b4c3-64c38798664b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/QQ截图20160119133506.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/ads.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/ecommerce-team-business-success (2).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/feature3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/feature6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/law.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/check.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HJKJ/index.html" afterPath="$PROJECT_DIR$/HJKJ/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/law/law.html" afterPath="$PROJECT_DIR$/law/law.html" />
     </list>
     <ignored path="Dairy Practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,34 +24,7 @@
     <favorites_list name="Dairy Practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.103449">
-              <caret line="210" column="45" selection-start-line="207" selection-start-column="4" selection-end-line="210" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="law.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/law/law.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2027027">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#3;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,6 +63,7 @@
         <option value="$PROJECT_DIR$/HJKJ/css/hjkj.css" />
         <option value="$PROJECT_DIR$/HJKJ/index.html" />
         <option value="$PROJECT_DIR$/law/law.html" />
+        <option value="$PROJECT_DIR$/law/check.html" />
       </list>
     </option>
   </component>
@@ -327,9 +274,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.128125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -364,13 +311,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TradeSite/trade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12.28Travelling/Travelling.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -697,24 +637,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
+    <entry file="file://$PROJECT_DIR$/law/check.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.103449">
-          <caret line="210" column="45" selection-start-line="207" selection-start-column="4" selection-end-line="210" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7297297">
+          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/law/law.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2027027">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.4954955">
+          <caret line="22" column="104" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="104" />
           <folding>
             <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#3;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8198198">
+          <caret line="210" column="45" selection-start-line="207" selection-start-column="4" selection-end-line="210" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

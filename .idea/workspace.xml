@@ -2,11 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7745994-8908-44be-b4c3-64c38798664b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HJKJ/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HJKJ/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/企业官方网站.xmind" afterPath="$PROJECT_DIR$/企业官方网站.xmind" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/QQ截图20160119133506.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/ad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/ads.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/ecommerce-team-business-success (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/feature3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/index/feature6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/law/law.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HJKJ/css/hjkj.css" afterPath="$PROJECT_DIR$/HJKJ/css/hjkj.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HJKJ/index.html" afterPath="$PROJECT_DIR$/HJKJ/index.html" />
     </list>
     <ignored path="Dairy Practice.iws" />
@@ -31,8 +55,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.862069">
-              <caret line="162" column="78" selection-start-line="162" selection-start-column="78" selection-end-line="162" selection-end-column="78" />
+            <state vertical-scroll-proportion="-25.103449">
+              <caret line="210" column="45" selection-start-line="207" selection-start-column="4" selection-end-line="210" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -40,12 +64,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hjkj.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HJKJ/css/hjkj.css">
+      <file leaf-file-name="law.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/law/law.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83682984">
-              <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-              <folding />
+            <state vertical-scroll-proportion="0.2027027">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#3;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +85,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Html5" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,8 +114,9 @@
         <option value="$PROJECT_DIR$/BootStrap/Modular/order_tour_route.html" />
         <option value="$PROJECT_DIR$/BootStrap/Index.html" />
         <option value="$PROJECT_DIR$/HJKJ/css/animate.css" />
-        <option value="$PROJECT_DIR$/HJKJ/index.html" />
         <option value="$PROJECT_DIR$/HJKJ/css/hjkj.css" />
+        <option value="$PROJECT_DIR$/HJKJ/index.html" />
+        <option value="$PROJECT_DIR$/law/law.html" />
       </list>
     </option>
   </component>
@@ -128,6 +157,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,7 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TradeSite" />
+              <option name="myItemId" value="law" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -170,7 +200,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
+              <option name="myItemId" value="law" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -184,39 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HJKJ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HJKJ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HJKJ" />
+              <option name="myItemId" value="law" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -234,13 +236,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="12.28Travelling" />
+              <option name="myItemId" value="HJKJ" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,11 +254,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\优秀代码\Dairy Practice\law" />
       <recent name="E:\Projects\优秀代码\Dairy Practice\HJKJ\images" />
       <recent name="E:\Projects\优秀代码\Dairy Practice\HJKJ" />
       <recent name="E:\Projects\优秀代码\Dairy Practice\HJKJ\css" />
       <recent name="E:\Projects\优秀代码\Dairy Practice\school" />
-      <recent name="E:\Projects\优秀代码\Dairy Practice\TradeSite" />
     </key>
   </component>
   <component name="RunManager">
@@ -363,13 +364,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TradeSite/trade.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="15" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TradeSite/trade.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -695,21 +689,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HJKJ/css/hjkj.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.862069">
-          <caret line="162" column="78" selection-start-line="162" selection-start-column="78" selection-end-line="162" selection-end-column="78" />
+        <state vertical-scroll-proportion="-25.103449">
+          <caret line="210" column="45" selection-start-line="207" selection-start-column="4" selection-end-line="210" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HJKJ/css/hjkj.css">
+    <entry file="file://$PROJECT_DIR$/law/law.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83682984">
-          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.2027027">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

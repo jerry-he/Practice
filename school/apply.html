@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>校园e贷</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">校园E贷申请表</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>您的贷款用途</th>
+                    <th style="color: red">注：贷款不得用于以下用途</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <form role="form">
+                            <div class= "form-group" style="margin: 0">
+                                <lable class= "checkbox-inline">
+                                    <input type="checkbox" value="日常生活消费" name="purpose">
+                                    日常生活消费
+                                </lable>
+                                <lable class= "checkbox-inline">
+                                    <input type="checkbox" value="旅游支出" name="purpose">
+                                    旅游支出
+                                </lable>
+                                <lable class= "checkbox-inline">
+                                    <input type="checkbox" value="医疗支出" name="purpose">
+                                    医疗支出
+                                </lable>
+                            </div>
+                            <div class= "form-group" style="margin: 0">
+                                <lable class= "checkbox-inline">
+                                    <input type="checkbox" value="应急周转" name="purpose">
+                                    应急周转
+                                </lable>
+                                <lable class= "checkbox-inline">
+                                    <input type="checkbox" value="学费支出" name="purpose">
+                                    学费支出
+                                </lable>
+                                <lable class= "checkbox-inline">
+                                    <input type="checkbox" value="医疗支出" name="purpose">
+                                    创业投资
+                                </lable>
+                            </div>
+                        </form>
+                        <div class= "form-group" >
+                            <lable class= "checkbox-inline">
+                                <input id="othersCheck" type="checkbox" value="others" name="purpose">
+                                其它支出
+                            </lable>
+                            <input id="others" type="text"  class= "form-control" style = "margin-top:10px;display: none" placeholder="描述你的贷款用途">
+                        </div>
+                        </form>
+                    </td>
+                    <td>
+                        <p>
+                        <ul class="list-unstyled">
+                            <li>1、贷款基金不得以任何形式进入证券市场或用于股本权益性投资</li>
+                            <li>2、贷款资金不得用于国家禁止或限制的经营活动</li>
+                        </ul>
+                        </p>
+                    </td>
+                </tr>
+                </tbody>
+                <tdbody>
+                    <tr>
+                        <td><span>您申请的贷款额</span><input type="text"></td>
+                        <td><span>您可接受的最高月还款金额</span><input type="number"><span>元</span></td>
+                        <td><span>您的申请期限</span><input type="number"><span>个月</span></td>
+                    </tr>
+                </tdbody>
+            </table>
+        </div>
+    </div>
+    <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+    <script src="./js/bootstrap.js"></script>
+    <script charset="utf-8">
+        $(document).ready(function() {
+            $('#othersCheck').change(function () {
+                var des = document.getElementById('othersCheck');
+                var o = document.getElementById('others');
+                if(des.checked){
+                    o.style.display = 'block';
+                }
+                else {
+                    o.style.display = 'none';
+                }
+            })
+        })
+    </script>
+</body>
+</html>

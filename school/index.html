@@ -25,126 +25,15 @@
                 <li><a href="#" >申请</a></li>
                 <li><a href="#" >关于我们</a></li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+        </div>
+        </div>
     </nav>
 
-    <!--background-->
-    <div class="container" style="position: relative;top: 52px;">
-        <div class="jumbotron">
-            <h1>欢迎登陆页面！</h1>
-            <p>这是一个超大屏幕（Jumbotron）的实例。</p>
-            <p>
-                <a class="btn btn-primary btn-lg" role="button">
-                学习更多
-                </a>
-                <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
-            </div>
-            </p>
-        </div>
-    </div>
-    <!--Register-->
-    <div class="modal fade" id="Register" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-sm" style="margin-top: 210px;">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
-                    <h4 class="modal-title" id="MyModalLabel">注册</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label class="sr-only" >用户名</label>
-                        <input type="text" class="form-control" name="lname" placeholder="用户名">
-                        <label class="control-label"></label>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only">邮箱</label>
-                        <input type="text" class="form-control" name="email" placeholder="邮箱">
-                        <label class="control-label"></label>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" >密码</label>
-                        <input type="password" class="form-control" name="password" placeholder="密码">
-                        <label class="control-label"></label>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" >确认密码</label>
-                        <input type="password" class="form-control" name="password2" placeholder="确认密码">
-                        <label class="control-label"></label>
-                    </div>
-                    <div class="form-group">
-                        我同意  <a href="/us/terms">注册条款</a> 和 <a href="/privacy">隐私政策</a>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" for="signup-form-submit">创建我的账户</label>
-                        <button type="button" role="button" class="btn btn-primary btn-block" id="signup-form-submit" placeholder="Confirm Password">创建我的账户</button>
-                    </div>
-                    <span>已经有账户？</span><a role="button" data-dismiss="modal" data-toggle="modal" data-target="#loginModal" type="button" class="pull-right text-info">登录&nbsp;<span class="fa fa-chevron-right"></span></a>
-                </div>
-            </div>
-        </div>
+    <!--body-->
+    <div class="container-fluid">
+        <img src="./images/bg.jpg" alt="">
     </div>
 
-    <!--login Module-->
-    <div class="modal fade in" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="false" style="display: none; padding-left: 15px;">
-        <div class="modal-dialog modal-sm" style="margin-top: 62.5px;">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
-                    <h4 class="modal-title" id="myModalLabel">登陆</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label class="sr-only">邮箱</label>
-                        <input type="text" class="form-control" placeholder="邮箱" name="email">
-                        <label class="control-label"></label>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" for="login-form-input2">密码</label>
-                        <input type="password" class="form-control" id="login-form-input2" placeholder="密码" name="password">
-                        <label class="control-label"></label>
-                    </div>
-                    <div class="form-group checkbox">
-                        <label>
-                            <input type="checkbox" name="isRemember" checked="checked" value="">记住登陆
-                        </label>
-                        <a role="button" data-dismiss="modal" data-toggle="modal" data-target="#forgotModal" type="button" class="pull-right text-info">忘记密码？</a>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" for="login-form-submit">密码</label>
-                        <button type="button" class="btn btn-primary form-control" id="login-form-submit">登陆</button>
-                    </div>
-                    <span>还没有账户？</span><a role="button" data-toggle="modal" data-target="#Register" data-dismiss="modal" type="button" class="pull-right text-info">注&nbsp;册<span class="fa fa-chevron-right"></span></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--forget password-->
-    <div class="modal fade" id="forgotModal" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
-                    <h4 class="modal-title" id="myModalLabel"> 找回密码</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label class="sr-only">邮箱</label>
-                        <input type="text" class="form-control" name="email" placeholder="邮箱">
-                        <label class="control-label"></label>
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" for="forgot-form-submit">邮箱</label>
-                        <button type="button" role="button" class="btn btn-primary btn-block" id="forgot-form-submit" placeholder="Confirm Password">发送密码重置邮件</button>
-                    </div>
-                    <span>想立即登录？</span><a role="button" data-dismiss="modal" data-toggle="modal" data-target="#loginModal" type="button" class="pull-right text-info">点击这里&nbsp;<span class="fa fa-chevron-right"></span></a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>

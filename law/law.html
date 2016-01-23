@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>河南花笺互动软件科技有限公司官网</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <h1>升龙又一城三期维权信息录入</h1>
+            </div>
+        </div>
+        <form role="form">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="购房人姓名">
+                <input type="text" class= "form-control" style = "margin-top:10px" placeholder="购房地址 格式（D-2-2-xxx）"/>
+                <input type="number" class= "form-control" style = "margin-top:10px" placeholder="输入联系方式"/>
+            </div>
+        </form>
+        <div class="row">
+            <div style="margin: 0 auto;display: inline-block;width: 15em;padding-left: 20px">
+                <button id="save_data" class="btn btn-lg btn-primary" type="button" style="margin-right: 1em" >保存</button>
+                <button class="btn btn-lg btn-info" type="button"><a href="./check.html">查看</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">升龙又一城三期维权信息录入</h4>
+                </div>
+                <div class="modal-body">
+                    <p>您的信息已经录入成功</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+    <script src="./js/bootstrap.js"></script>
+    <script>
+        $(function(){
+            $("#save_data").click(function(){
+                $("#myModal").modal("toggle");
+            });
+        });
+    </script>
+</body>
+</html>

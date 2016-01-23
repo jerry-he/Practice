@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <script type="text/javascript" charset="utf-8">
+            if(window.localStorage){
+                sessionStorage.setItem("name","jerryhe");
+                localStorage.setItem("time",new Date());
+            }
+            else{
+                console.log(false);
+            }
+            var openRequest = indexedDB.open("test",1);
+        </script>
+    </body>
+</html>

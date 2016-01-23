@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Notifications API</title>
+</head>
+<body>
+    <script type="text/javascript" charset="UTF-8" >
+        if(window.Notification && Notification.permission !== "denied") {
+            Notification.requestPermission(function(status) {
+                var n = new Notification('通知标题', { body: '这里是通知内容！',icon:'../content/imgs/member/1.jpg' });
+            });
+
+        }
+    </script>
+</body>
+</html>

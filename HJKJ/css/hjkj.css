@@ -1,0 +1,89 @@
+@charset "utf-8";
+#item1{
+    position: absolute;
+    top: 5em;
+    left: -26%;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+}
+#item2{
+    position:absolute;
+    top:33%;
+    left: 22%;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+    font-size: 2em;
+}
+#item3{
+    position:absolute;
+    top:2.5em;
+    left: -25%;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+}
+
+#item3 span:nth-child(1){
+    color: red;
+    opacity: 0.7;
+}
+
+#item4 {
+    position:absolute;
+    top:30%;
+    left: 22%;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+    font-size: 2em;
+    color: orangered;
+    opacity: 0.8;
+
+}
+#item5 {
+    position:absolute;
+    top:10%;
+    left: 22%;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+    color: orangered;
+    opacity: 0.8;
+
+}
+#item5 p{
+    color: white;
+    font-size: 1em;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+}
+#item6 {
+    position:absolute;
+    top:10%;
+    left: 1%;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+    color: orangered;
+    opacity: 0.8;
+}
+#item6 h1{
+    position:relative;
+    top:10%;
+    left: -10%;
+}
+#item6 p{
+    position:relative;
+    top:30%;
+    left: 22%;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",u9ed1u4f53,Arial,sans-serif;
+    color: orange;
+    max-width: 30em;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.drop1{
+    min-width: 6em;
+}
+
+#focus_dot{
+    width: 10em;
+    left:72%;
+    border-radius: 9px;
+    background-color: black;
+    opacity: 0.3;
+}
+.big-icon span{
+    font-size: 6em;
+    left: calc((100% - (64px)) * 0.46);
+}

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tailor-made Service</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/IReMatch/travelling.css">
+    <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">IReMatch Travelling</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Tell Us Your Destination">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle = "modal" data-target="#Register">SignUp</a></li>
+                    <li><a href="#" data-toggle = "modal" data-target="#loginModal">Login</a></li>
+                    <li><a href="./custom.html">Tailor-made Service</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Content-->
+        <div class="container content">
+            <div class="panel">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="panel-title">
+                    <span>
+                        1.What kind of travel pace do you prefer?
+                    </span>
+                        </div>
+                        <form role="form">
+                            <div class="form-group">
+
+                                <input type="text" data-provide="typeahead" class= "form-control"  placeholder="input your destination !"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="panel-title">
+                    <span>
+                        2.How much of your trip planning/research have you already done?
+                    </span>
+                        </div>
+                        <form role="form">
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>Please Select</option>
+                                    <option value="10">Extensively researched</option>
+                                    <option value="20">Moderately researched</option>
+                                    <option value="30">Not well researched</option>
+                                    <option value="50">Not at all</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div style="margin-bottom: 15px" class="row">
+                    <div class="col-sm-12">
+                        <div class="panel-title">
+                    <span>
+                        3.Travelers
+                    </span>
+                        </div>
+                        <form role="form">
+                            <div class="form-group wrap" >
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <span>Adults(Male)</span>
+                                        <select class="form-control" >
+                                            <option value="">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <span>Adults(Female)</span>
+                                        <select class="form-control" >
+                                            <option value="">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <span>Children (2-12yrs) </span>
+                                        <select class="form-control">
+                                            <option value="">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <span>Babies(0-2 yrs)</span>
+                                        <select class="form-control">
+                                            <option value="">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel-title">
+                            <span>
+                                4.Accommodation:
+                            </span>
+                        </div>
+                        <div class="radio radio-inline" style="padding-left: 0">
+                                <label class="checkbox-inline" style="margin-top: 0">
+                                    <input class="hotel_select" type="radio" value="50" name="hotelRating" >5-star hotel
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input class="hotel_select" type="radio" value="40" name="hotelRating" >4-star hotel
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input class="hotel_select" type="radio" value="30" name="hotelRating" >3-star hotel
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input class="hotel_select" type="radio" value="20" name="hotelRating" >Boutique hotels
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input class="hotel_select" type="radio" value="10" name="hotelRating" >Home stays
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input class="hotel_select_not" type="radio" value="99" name="hotelRating" >Not Include
+                                </label>
+                                <div id="roomType" class="panel hidden" >
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="panel-title">Rooms Type</div>
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <label class="checkbox-inline" style="line-height: 20px">
+                                                        <input type="radio" value="10" name="roomType">Standard room
+                                                    </label>
+                                                    <label class="checkbox-inline" style="line-height: 20px">
+                                                        <input type="radio" value="20" name="roomType">King room
+                                                    </label>
+                                                    <label class="checkbox-inline" style="line-height: 20px">
+                                                        <input type="radio" value="30" name="roomType">Suite
+                                                    </label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="control-group">
+                                                <div class="panel-title">Rooms Number</div>
+                                                <div class=" list-inline" id="roomNum">
+                                                    <select name="roomNum" >
+                                                        <option value="">Rooms Number</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <!--Register Module-->
+    <div class="modal fade" id="Register" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-sm" style="margin-top: 209.5px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="join-form" action="/signin/facebook.shtml" method="post">
+                        <input type="hidden" name="scope" value="email,publish_stream,offline_access">
+                        <button type="submit" class="btn btn-facebook btn-block btn-lg"><i class="fa fa-facebook"></i>Sign Up with Facebook</button>
+                    </form>
+                    <div class="strike">
+                        <span>OR</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">First Name</label>
+                        <input type="text" class="form-control" name="fname" placeholder="First Name">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" >Last Name</label>
+                        <input type="text" class="form-control" name="lname" placeholder="Last Name">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Email</label>
+                        <input type="text" class="form-control" name="email" placeholder="Email">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" >Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" >Confirm Password</label>
+                        <input type="password" class="form-control" name="password2" placeholder="Confirm Password">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group checkbox">
+                        <label>
+                            <input type="checkbox" name="isReceive" checked="checked">
+                            I'd like to receive discounts and news.
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        By signing up, I agree to  <a href="/us/terms">Terms &amp; Conditions</a> and <a href="/privacy">Privacy Policy</a>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="signup-form-submit">Create My Accoun</label>
+                        <button type="button" role="button" class="btn btn-primary btn-block" id="signup-form-submit" placeholder="Confirm Password">Create My Account</button>
+                    </div>
+                    <span>Already have an account?</span><a role="button" data-dismiss="modal" data-toggle="modal" data-target="#loginModal" type="button" class="pull-right text-info">Log In&nbsp;<span class="fa fa-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Login Module-->
+    <div class="modal fade in" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="false" style="display: none; padding-left: 15px;">
+        <div class="modal-dialog modal-sm" style="margin-top: 62.5px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    <h4 class="modal-title" id="myModalLabel">Log In</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form" id="login-form" action="/signin/facebook.shtml" method="post">
+                        <input type="hidden" name="scope" value="email,publish_stream,offline_access">
+                        <button type="submit" class="btn btn-facebook btn-block btn-lg"><i class="fa fa-facebook"></i>Log In with Facebook</button>
+                    </form>
+                    <div class="strike">
+                        <span>OR</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Email</label>
+                        <input type="text" class="form-control" placeholder="Email" name="email">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="login-form-input2">Password</label>
+                        <input type="password" class="form-control" id="login-form-input2" placeholder="Password" name="password">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group checkbox">
+                        <label>
+                            <input type="checkbox" name="isRemember" checked="checked" value="">Remember me
+                        </label>
+                        <a role="button" data-dismiss="modal" data-toggle="modal" data-target="#forgotModal" type="button" class="pull-right text-info">Forgot Password?</a>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="login-form-submit">Password</label>
+                        <button type="button" class="btn btn-primary form-control" id="login-form-submit">Login</button>
+                    </div>
+                    <span>Don't have an account?</span><a role="button" data-toggle="modal" data-target="#Register" data-dismiss="modal" type="button" class="pull-right text-info">Sign Up&nbsp;<span class="fa fa-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--forget password-->
+    <div class="modal fade" id="forgotModal" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    <h4 class="modal-title" id="myModalLabel"> Log In</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form" id="forgot-form" action="/signin/facebook.shtml" method="post">
+                        <input type="hidden" name="scope" value="email,publish_stream,offline_access">
+                        <button type="submit" class="btn btn-facebook btn-block btn-lg"><i class="fa fa-facebook"></i>Log In with Facebook</button>
+                    </form>
+                    <div class="strike">
+                        <span>OR</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Email</label>
+                        <input type="text" class="form-control" name="email" placeholder="Email">
+                        <label class="control-label"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="forgot-form-submit">Email</label>
+                        <button type="button" role="button" class="btn btn-primary btn-block" id="forgot-form-submit" placeholder="Confirm Password">Send Reset Email</button>
+                    </div>
+                    <span>Want to log in instead?</span><a role="button" data-dismiss="modal" data-toggle="modal" data-target="#loginModal" type="button" class="pull-right text-info">Click here&nbsp;<span class="fa fa-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+    <script src="../js/bootstrap.min.js"></script>
+    <!--自动完成插件-->
+    <script src="../js/autocomplete.min.js" charset="UTF-8"></script>
+    <script src="../js/IReMatch/travelling.js" charset="utf-8"></script>
+
+</body>
+</html>

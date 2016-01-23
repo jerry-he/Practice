@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生js实现文件预览压缩上传</title>
+</head>
+<body>
+    <div class="fileUpload"><input type="file"  onchange="previewPicture()" id="fileUpload" accept="image/*"/></div>
+    <div class="preview">
+        <!--<img src="" alt=""/>-->
+    </div>
+    <canvas id = "canvas">您的浏览器不支持canvas</canvas>
+
+<script type="text/javascript" charset="UTF-8">
+    /**
+     * Created by JerryHe on 12/22/15.
+     */
+    /*currently , photo upload is only support signal file*/
+
+    function previewPicture(){
+        var des = document.getElementById("fileUpload");
+        var file = des.files[0];
+        //var $img = document.getElementsByTagName("img")[0];
+        //var div = document.getElementsByClassName("preview");
+        var $img = new Image();
+        /* 生成预览图片
+         */
+        var reader=new FileReader();
+        reader.onload=function(){
+            // 通过 reader.result 来访问生成的 DataURL
+            var url=reader.result;
+            setImageURL(url);
+        };
+        reader.readAsDataURL(file);
+        function setImageURL(url){
+            $img.src= url;
+            console.log($img);
+            document.body.appendChild($img);
+        };
+        //发送到服务端
+        var formData = new FormData();
+        // 建立一个upload表单项，值为上传的文件
+        formData.append('upload', file);
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/');
+        // 定义上传完成后的回调函数
+        //onload指ajax完成后触发的
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                console.log('上传成功');
+            } else {
+                console.log('出错了');
+            }
+        };
+        xhr.send(formData);
+
+
+        $img.onload = function() {
+            var canvas = document.getElementById("canvas");
+            canvas.width = 800;
+            canvas.height = $img.naturalHeight * 800 / $img.naturalWidth;
+            canvas.getContext("2d").drawImage($img, 0, 0);
+            return canvas;
+        }
+
+    }
+
+
+
+</script>
+</body>
+</html>

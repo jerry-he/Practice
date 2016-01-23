@@ -1,0 +1,43 @@
+@charset "utf-8";
+ul li{
+    list-style: none;
+}
+.small{
+    width:200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.container li{
+    width: 200px;
+    height: 200px;
+    float: left;
+    display: none;
+
+}
+.out_wrapper{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.pic{
+    width: 200px;
+}
+.container{
+    width: 200px;
+    float: left;
+    padding-left: 0;
+    overflow: hidden;
+    height: 200px;
+}
+.dot{
+    width: 220px;
+    margin-left: 534px;
+}
+.dot li{
+    float: left;
+    margin-right: 10px;
+    font-size: 130px;
+    margin-top: -140px;
+    cursor: pointer;
+    color: #eee;
+}

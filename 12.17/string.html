@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    // 这个字符串过滤看的不是很懂
+    function getSymbols(string){
+        var length = string.length;
+        var index  = -1;
+        var output = [];
+        var character;
+        var charCode;
+        while(++index < length) {
+            character = string.charAt(index);
+            charCode = character.charCodeAt(0);
+            if(charCode >= 0xD800 && charCode <= 0xDBFF){
+                output.push(character + string.charAt(++index));
+            } else {
+                output.push(character);
+            }
+        }
+        return output;
+    }
+    var symbols = getSymbols('中华人民共和国');
+    console.log(symbols);
+    symbols.forEach(function(symbol) {
+        //Detail logic
+
+    })
+    //base64 转码和解码
+    function decode(string){
+        return btoa(string);
+    }
+    var decodeA = decode("hello world");
+    console.log(atob(decodeA));
+    // 默认不能输入中文，因为中文默认不是ASCII编码
+    //中文的处理办法,非ASCII编码时的处理
+    function b64Encode(str) {
+        return btoa(unescape(encodeURIComponent(str)));
+    }
+    //解码
+    function b64Decode(str) {
+        return decodeURIComponent(escape(atob(str)));
+    }
+
+    console.log(b64Encode('中文'));
+
+    //练习对象的操作
+    var o = {
+        p: "段落的标示符",
+        br:"换行符"
+    }
+    console.log(o.p);
+</script>
+</body>
+</html>

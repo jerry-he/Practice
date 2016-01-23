@@ -1,0 +1,34 @@
+@charset "utf-8";
+.left{
+    margin: 0 auto;
+    border: 1px solid orangered;
+    width: 300px;
+}
+.rotate{
+    width: 100px;
+    color: orangered;
+    box-shadow: inset 0 0 5px 1px red;
+    /*box-shadow 总计支持6个值 默认第一个不填的话为外投影
+                 第一个0 表示水平投影   x轴
+                 第二个0 表示y轴投影
+                 第四个 5px 表示阴影模糊半径
+                 第五个 1px 阴影扩展半径
+                 第六个 阴影颜色
+                 第四 五 六是可选参数
+
+                 对象选择器 {box-shadow:投影方式 X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色}
+    */
+    transform: rotate(180deg) scale(2,1.5) skew(30deg,15deg) translate(10px,-300px);
+    /*      rotate 旋转度数，正表示顺时针
+            scale（x,y）表示x y上放大的倍数
+            skew（x，y） 表示x y上扭曲的度数
+            translate（x，y） 表示x y轴上移动的举例(注意正负值)
+    */
+    transform-origin(center,center);
+    transition: all .5s ease-in-out .2s;
+    /*注释   all  可选none   all表示对所有元素执行变换
+            .5    表示从原始状态到transform中规定的状态持续多长时间完成
+            ease-in-out 表示转换使用的动画效果，有in out的四种组合
+            1s      表示延迟
+    */
+}

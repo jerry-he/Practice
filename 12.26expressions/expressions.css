@@ -1,0 +1,134 @@
+@charset "utf-8";
+/*css reset*/
+ul,ol,dl{
+    margin: 0 auto;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.faceContainer{
+    background: white;
+    opacity: 1;
+    width: 394px;
+    height: 190px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+}
+.qqFace{
+    float: left;
+    display: inline-block;
+    border-right: 2px solid rgba(0,0,0,0.3);
+    border-bottom:2px solid rgba(0,0,0,0.3);
+}
+.qqFace:hover{
+    background: #eee;
+    border: 1px solid cornflowerblue;
+    box-sizing: border-box;
+}
+.beaverFace:hover,.sisterFace:hover{
+    background: #eee;
+    border: 1px solid cornflowerblue;
+    box-sizing: border-box;
+    width: 64px;
+    height: 60px;
+    padding-right: 3px;
+}
+.qqWrapper{
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-left: 1px solid rgba(0,0,0,0.3);
+    margin: 0 auto;
+    height: 157px;
+    width: 394px;
+    border-radius: 9px;
+}
+.qqWrapper li:last-child{
+    border-bottom-right-radius: 9px;
+}
+.qqWrapper li:nth-child(15){
+    border-top-right-radius: 3px;
+}
+.qqWrapper li:nth-child(76){
+    border-bottom-left-radius: 9px;
+}
+.tabWrapper li{
+    float: left;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+    max-width: 100px;
+    overflow: hidden;
+    cursor: pointer;
+    word-break: keep-all;
+    white-space: nowrap;
+    border-right: 1px solid #eee;
+    padding-right: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.active {
+    background: cornflowerblue;
+    color: white;
+    border-radius: 3px;
+    height: 24px;
+    margin-top: 4px;
+}
+.tabWrapper li:hover{
+    background: cornflowerblue;
+    color: white;
+    border-radius: 3px;
+    height: 24px;
+    margin-top: 4px;
+    position: relative;
+}
+.tabIndex{
+    width: 394px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 5px;
+    position: absolute;
+    background: #f7f7f7;
+    bottom: -1px;
+}
+.tabWrapper{
+    margin: 0 auto;
+    overflow-x: scroll;
+    height: 28px;
+    display: inline;
+    white-space: nowrap;
+    width: auto;
+    position: relative;
+}
+.beaverWrapper li,.sisterWrapper li{
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    cursor: pointer;
+    padding-right: 3px;
+}
+.beaverWrapper,.sisterWrapper {
+    margin: 0 auto;
+    height: 165px;
+    width: 401px;
+    border-radius: 9px;
+    overflow-y: auto;
+}
+.sisterWrapper li img,.beaverWrapper li img{
+    width:60px;
+    height:60px;
+}
+
+.FaceIndex span{
+    display: inline-block;
+    line-height: 24px;
+    position: relative;
+    top:-3px;
+}
+

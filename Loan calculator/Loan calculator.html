@@ -7,17 +7,17 @@
 <body>
     <div class="wrapper">
         <div class="money">
-            <label for="money">
+            <label for="money"><span>借款金额</span>
                 <input type="number" id="money" value="1"/>
             </label>
         </div>
         <div class="time">
-            <label for="time">
+            <label for="time"><span>借款时长</span>
                 <input type="number" id="time" value="1" />
             </label>
         </div>
         <div class="consume">
-            <label for="consume">
+            <label for="consume"><span>每月还款额</span>
                 <input type="number" id="consume" value="1" />
             </label>
         </div>
@@ -32,14 +32,13 @@
             totalMoney = e.target.value * V_time;
             var consume = document.getElementById('consume');
             consume.value = totalMoney * V_time;
-            console.log(consume.value);
+
         },false);
 
         time.addEventListener('input',function total(e){
-            totalMoney = totalMoney * e.target.value;
+            totalMoney = totalMoney * 0.015 + (totalMoney/V_time) ;
             var consume = document.getElementById('consume');
-            consume.value = totalMoney * V_time;
-            console.log(consume.value);
+            consume.value = totalMoney ;
         },false);
 
 

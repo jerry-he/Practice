@@ -31,7 +31,7 @@
         <div class="row">
             <h3 class="text-center">校园e贷申请表</h3>
         </div>
-        <form role = 'form'>
+        <form role = 'form' id="formData">
             <div class="row">
                 <div class="col-sm-3">
                         <h4>您申请的贷款金额</h4><input  class= "form-control" type="number">
@@ -229,25 +229,29 @@
                 </p>
             </div>
         </form>
+        <div class="row">
+            <div class="text-right">
+                <div id="summit_form" class="btn btn-primary">提交申请</div>
+                <div class="btn btn-info">取消</div>
+            </div>
+        </div>
     </div>
 
     <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <script src = './js/bootstrap.min.js'></script>
-
     <script type="application/javascript" charset="utf-8">
-
+    /*选择贷款用途*/
     function changeValue(){
         var b=document.getElementById("selectValue").options.selectedIndex;
         var c = document.getElementById('others');
-
         var options = {
             flag:Boolean(b === 6),
             option:c
         };
         toggle(options);
     }
-
+    /*选择贷款经历*/
     function loan(){
         var loan =    document.getElementById('optionsRadios8').checked;
         var loanNum = document.getElementById('loanNum');
@@ -257,6 +261,7 @@
         };
         toggle(options);
     }
+    /*选择住房类型*/
     function house(){
         var house_x = document.getElementById('optionsRadios12').checked;
         var house_y = document.getElementById('optionsRadios13').checked;
@@ -268,10 +273,10 @@
         };
         toggle(options);
     }
-        function toggle(options){
-            console.log(options);
-            if(!options){
-            console.log('arguments is empty');
+    /*封装公共操作部分*/
+    function toggle(options){
+        if(!options){
+            console.log("options is empty")
         }else{
             if(options.flag){
                 options.option.style.display = 'block';
@@ -280,7 +285,21 @@
                 options.option.style.display = 'none';
             }
         }
+    }
+    /*表单信息验证部分*/
+
+    /*表单信息提交*/
+    var formData = document.getElementById('formData').elements;
+    var summitBtn= document.getElementById('summit_form');
+        summitBtn.onclick = function(){
+           for(var i = 0;i<=formData.length;i++){
+               data = {
+                  'formData':"formData.[i]"
+               }
+
+           }
         }
+
     </script>
 </body>
 </html>

@@ -12,98 +12,275 @@
     <title>校园e贷</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center">校园E贷申请表</h1>
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-                <thead>
-                <tr>
-                    <th>您的贷款用途</th>
-                    <th style="color: red">注：贷款不得用于以下用途</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>
-                        <form role="form">
-                            <div class= "form-group" style="margin: 0">
-                                <lable class= "checkbox-inline">
-                                    <input type="checkbox" value="日常生活消费" name="purpose">
-                                    日常生活消费
-                                </lable>
-                                <lable class= "checkbox-inline">
-                                    <input type="checkbox" value="旅游支出" name="purpose">
-                                    旅游支出
-                                </lable>
-                                <lable class= "checkbox-inline">
-                                    <input type="checkbox" value="医疗支出" name="purpose">
-                                    医疗支出
-                                </lable>
-                            </div>
-                            <div class= "form-group" style="margin: 0">
-                                <lable class= "checkbox-inline">
-                                    <input type="checkbox" value="应急周转" name="purpose">
-                                    应急周转
-                                </lable>
-                                <lable class= "checkbox-inline">
-                                    <input type="checkbox" value="学费支出" name="purpose">
-                                    学费支出
-                                </lable>
-                                <lable class= "checkbox-inline">
-                                    <input type="checkbox" value="医疗支出" name="purpose">
-                                    创业投资
-                                </lable>
-                            </div>
-                        </form>
-                        <div class= "form-group" >
-                            <lable class= "checkbox-inline">
-                                <input id="othersCheck" type="checkbox" value="others" name="purpose">
-                                其它支出
-                            </lable>
-                            <input id="others" type="text"  class= "form-control" style = "margin-top:10px;display: none" placeholder="描述你的贷款用途">
-                        </div>
-                        </form>
-                    </td>
-                    <td>
-                        <p>
-                        <ul class="list-unstyled">
-                            <li>1、贷款基金不得以任何形式进入证券市场或用于股本权益性投资</li>
-                            <li>2、贷款资金不得用于国家禁止或限制的经营活动</li>
-                        </ul>
-                        </p>
-                    </td>
-                </tr>
-                </tbody>
-                <tdbody>
-                    <tr>
-                        <td><span>您申请的贷款额</span><input type="text"></td>
-                        <td><span>您可接受的最高月还款金额</span><input type="number"><span>元</span></td>
-                        <td><span>您的申请期限</span><input type="number"><span>个月</span></td>
-                    </tr>
-                </tdbody>
-            </table>
+    <nav>
+        <div class="navbar  navbar-static-top">
+            <a class="navbar-brand" href="/">
+                <img alt="Brand" src="./images/logo.png" style="display: inline;width: 32px">
+                <span>校园E贷</span>
+            </a>
+            <ul class="nav navbar-right">
+                <li><a href="#" >通告</a></li>
+                <li><a href="./apply.html">申请</a></li>
+            </ul>
         </div>
+
+    </nav>
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center">校园e贷申请表</h3>
+        </div>
+        <form role = 'form'>
+            <div class="row">
+                <div class="col-sm-3">
+                        <h4>您申请的贷款金额</h4><input  class= "form-control" type="number">
+                </div>
+                <div class="col-sm-3">
+                    <h4>可承受最高月还款额</h4><input class= "form-control" type="number">
+                </div>
+                <div class="col-sm-3">
+                    <h4>您的申请期限(单位：月)</h4><input  class= "form-control" type="number">
+                </div>
+                <div class="col-sm-3">
+                    <h4>选择贷款用途</h4>
+                    <select id="selectValue" class="form-control" onchange="changeValue()">
+                        <option>日常生活消费</option>
+                        <option>旅游支出</option>
+                        <option>医疗支出 </option>
+                        <option>应急周转</option>
+                        <option>学费支出</option>
+                        <option>创业投资</option>
+                        <option>其他（请详细说明）</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row" style="padding: 15px">
+                <input id="others" type="text"  class= "form-control" style = "margin-top:10px;display: none" placeholder="描述你的贷款用途">
+            </div>
+            <div class="row" >
+                <h4 class="text-center" style="color: red">您的个人信息</h4>
+                <div class="col-sm-3">
+                    <input class= "form-control" type="text" placeholder="姓名">
+                </div>
+               <div class="col-sm-3" style="line-height: 32px">
+                   <span>性别</span>
+                   <label><input type="radio" name="optionsRadios" id="optionsRadios1" value="male" >男性</label>
+                   <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="female" >女性</label>
+               </div>
+                <div class="col-sm-3">
+                    <input type="number" class= "form-control" maxlength="12"placeholder="手机号码">
+                </div>
+                <div class="col-sm-3">
+                    <input type="number" class= "form-control" maxlength="12" placeholder="qq号码">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px">
+                <div class="col-sm-3">
+                    <input type="number" class= "form-control" maxlength="18" placeholder="身份证号码">
+                </div>
+                <div class="col-sm-1" style="line-height: 32px">
+                    <span class="form-inline">学历</span>
+                </div>
+                <div class="col-sm-2">
+                    <select class="form-control list-inline"  >
+                        <option>硕士及以上</option>
+                        <option>本科及同等学历</option>
+                        <option>大专及同等学历</option>
+                        <option>其它</option>
+                    </select>
+                </div>
+                <div class="col-sm-6">
+                    <input class= "form-control"  type="text" placeholder="户籍地址">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px">
+                <div class="col-sm-3">
+                    <input class= "form-control" type="number" placeholder="学生证号码">
+                </div>
+                <div class="col-sm-3">
+                    <input class= "form-control" type="text" placeholder="月生活费">
+                </div>
+               <div class="col-sm-3" style="line-height: 32px">
+                   <span>是否获得奖学金</span>
+                   <label>
+                       <input type="radio" name="award" id="optionsRadios6">
+                       是
+                   </label>
+                   <label>
+                       <input type="radio" name="award" id="optionsRadios7" >
+                       否
+                   </label>
+               </div>
+                <div class="col-sm-3" style="line-height: 32px">
+                    <span>其它平台借款</span>
+                    <label><input type="radio" name="money" id="optionsRadios8" onchange="loan()" >是</label>
+                    <label><input type="radio" name="money" id="optionsRadios9" onchange="loan()" >否</label>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12" id="loanNum" style="display: none">
+                    <input class= "form-control" type="number" placeholder="借款金额" >
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px">
+                <div class="col-sm-5" style="line-height: 32px">
+                    <span>住宅类型</span>
+                    <label><input type="radio" name="house" id="optionsRadios10" >学校宿舍</label>
+                    <label><input type="radio" name="house" id="optionsRadios12" >租房</label>
+                    <label><input type="radio" name="house" id="optionsRadios13" >亲戚家</label>
+                    <label><input type="radio" name="house" id="optionsRadios14" >自有房屋</label>
+                </div>
+                <div id="houseType" >
+                    <div class="col-sm-2">
+                        <input id="" class= "form-control" type="number" placeholder="租房金额(元)">
+                    </div>
+                    <div class="col-sm-5">
+                        <input class= "form-control" type="text" placeholder="住宿地址">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <h3 class="text-center">教育经历由近及远</h3>
+                <table class="table table-responsive ">
+                    <thead>
+                        <th>时间</th>
+                        <th>学院名称</th>
+                        <th>所学专业</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input class= "form-control" type="text" placeholder="时间"></td>
+                            <td><input class= "form-control" type="text" placeholder="学院名称"></td>
+                            <td><input class= "form-control" type="text" placeholder="所学专业"></td>
+                        </tr>
+                        <tr>
+                            <td><input class= "form-control" type="text" placeholder="时间"></td>
+                            <td><input class= "form-control"type="text" placeholder="学院名称"></td>
+                            <td><input class= "form-control" type="text" placeholder="所学专业"></td>
+                        </tr>
+                        <tr>
+                            <td><input class= "form-control" type="text" placeholder="时间"></td>
+                            <td><input class= "form-control" type="text" placeholder="学院名称"></td>
+                            <td><input class= "form-control" type="text" placeholder="所学专业"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <h3 class="text-center">您的工作信息</h3>
+                <div class="col-sm-6">
+                    <input class= "form-control" type="text" placeholder="是否有兼职工作">
+                </div>
+                <div class="col-sm-6">
+                    <input class= "form-control" type="text" placeholder="在班级或学校是否有职务">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="text-center">创业项目信息</h3>
+                    <input class= "form-control" type="text" placeholder="项目简介">
+                </div>
+            </div>
+            <div class="row">
+                <h3 class="text-center" style="color: red">联系人信息</h3>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="直系亲属1">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="关系">
+                </div>
+                <div class="col-sm-2">
+                    <input type="number" class="form-control" placeholder="联系电话">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="直系亲属2">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="关系">
+                </div>
+                <div class="col-sm-2">
+                    <input type="number" class="form-control" placeholder="联系电话">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="辅导员">
+                </div>
+                <div class="col-sm-2">
+                    <input type="number" class="form-control" placeholder="联系电话">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="班长">
+                </div>
+                <div class="col-sm-2">
+                    <input type="number" class="form-control" placeholder="联系电话">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" placeholder="室友">
+                </div>
+                <div class="col-sm-2">
+                    <input type="number" class="form-control" placeholder="联系电话">
+                </div>
+            </div>
+            <div class="col-sm-12 ">
+                <h3 class="text-center" style="color: red">特别声明</h3>
+                <p >
+                    本贷款申请人承诺：本申请表填写内容真实，如有不实，本人愿承担相应法律责任。本人授权校园e贷在任何依法成立的征信机构及银行了解和查询本人财产、个人信用记录等信息；公司有权同意或者拒绝本人的贷款申请且无须提供任何理由及无须退回所有申请资料副本给本人。
+                </p>
+            </div>
+        </form>
     </div>
+
     <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
-    <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
-    <script src="./js/bootstrap.js"></script>
-    <script charset="utf-8">
-        $(document).ready(function() {
-            $('#othersCheck').change(function () {
-                var des = document.getElementById('othersCheck');
-                var o = document.getElementById('others');
-                if(des.checked){
-                    o.style.display = 'block';
-                }
-                else {
-                    o.style.display = 'none';
-                }
-            })
-        })
+    <script src = './js/bootstrap.min.js'></script>
+
+    <script type="application/javascript" charset="utf-8">
+
+    function changeValue(){
+        var b=document.getElementById("selectValue").options.selectedIndex;
+        var c = document.getElementById('others');
+
+        var options = {
+            flag:Boolean(b === 6),
+            option:c
+        };
+        toggle(options);
+    }
+
+    function loan(){
+        var loan =    document.getElementById('optionsRadios8').checked;
+        var loanNum = document.getElementById('loanNum');
+        var options = {
+            flag:loan,
+            option:loanNum
+        };
+        toggle(options);
+    }
+    function house(){
+        var house_x = document.getElementById('optionsRadios12').checked;
+        var house_y = document.getElementById('optionsRadios13').checked;
+        var house_z = document.getElementById('optionsRadios14').checked;
+        var house_o = document.getElementById('houseType');
+        var options = {
+            flag:house_x || house_y || house_z,
+            option:house_o
+        };
+        toggle(options);
+    }
+        function toggle(options){
+            console.log(options);
+            if(!options){
+            console.log('arguments is empty');
+        }else{
+            if(options.flag){
+                options.option.style.display = 'block';
+                }else
+            {
+                options.option.style.display = 'none';
+            }
+        }
+        }
     </script>
 </body>
 </html>

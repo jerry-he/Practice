@@ -163,3 +163,7 @@ body {
         width: 980px;
     }
 }
+
+.text-indent{
+    text-indent: 40px;
+}

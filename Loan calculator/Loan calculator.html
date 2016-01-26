@@ -5,43 +5,62 @@
     <title></title>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="calc_wrapper">
         <div class="money">
             <label for="money"><span>借款金额</span>
-                <input type="number" id="money" value="1"/>
+                <input type="number" id="money" value="500"  min="500" max="5000"/>
             </label>
         </div>
         <div class="time">
-            <label for="time"><span>借款时长</span>
-                <input type="number" id="time" value="1" />
+            <label for="slide_r"><span>借款时长</span><span id="long_time">3</span><span>月</span>
+                <input id="slide_r" step="1" type="range" value="3" min="1" max="12" style="width: 200px">
             </label>
         </div>
         <div class="consume">
-            <label for="consume"><span>每月还款额</span>
-                <input type="number" id="consume" value="1" />
-            </label>
+            <div class="clr"><span>每月应还款金额</span>
+                <span id="consume">174.17</span>
+            </div>
+
         </div>
     </div>
-
     <script type="text/javascript" charset="utf-8" >
-        var money   =  document.getElementById('money');
-        var totalMoney =  money.value;
-        var time    = document.getElementById('time');
-        var V_time  =  time.value;
-        money.addEventListener('input',function total(e){
-            totalMoney = e.target.value * V_time;
-            var consume = document.getElementById('consume');
-            consume.value = totalMoney * V_time;
+        var money   =  document.getElementById('money'); //借款总额
+        var time    = document.getElementById('slide_r'); //借款时长
+        var consume = document.getElementById('consume');//每月应还款金额
 
+        money.addEventListener('input',function total(e){
+            var V_time  =  time.value;
+            var consume = document.getElementById('consume');
+            if(e.target.value > 5000){
+                consume.value = 5000;
+            }else if(e.target.value < 500){
+                consume.value = 500;
+            } else{
+
+                consume.innerText = (e.target.value / V_time + e.target.value * 0.015).toFixed(2); //每月应还金额
+            }
         },false);
+
 
         time.addEventListener('input',function total(e){
-            totalMoney = totalMoney * 0.015 + (totalMoney/V_time) ;
-            var consume = document.getElementById('consume');
-            consume.value = totalMoney ;
+            var timer = document.getElementById('long_time');
+           /* time.value=document.getElementById("long_time").innerText;*/
+            Object.defineProperty(timer, 'time', {
+                get: function() {
+                    return time.value;
+                },
+                set: function(newValue) {
+                    time.value = newValue;
+                },
+                configurable: true
+            });
+            document.getElementById("long_time").innerText = timer.time;
+
+            var totalMoney =  money.value;
+            consume.innerText = ((totalMoney / e.target.value) +  totalMoney * 0.015).toFixed(2)  ; //每月应还金额
         },false);
 
-
+        //每月应还 = 借款总额/借款时间 + 借款总额*0.015
     </script>
 </body>
 </html>

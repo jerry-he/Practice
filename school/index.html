@@ -143,27 +143,23 @@
         var money   =  document.getElementById('money'); //借款总额
         var time    = document.getElementById('slide_r'); //借款时长
         var consume = document.getElementById('consume');//每月应还款金额
-        console.log(consume.textContent);
         money.onblur=function(){
             console.log('jerryhe');
             if(money.value<500){
-                consume.innerText = 500;
+                money.value = 500;
             }else if(money.value>5000){
-                consume.innerText = '5000';
+                money.value = '5000';
             }
 
         };
         money.addEventListener('input',function total(e){
             var V_time  =  time.value;
             var consume = document.getElementById('consume');
-            console.log(e.target.value);
+
             if(e.target.value > 5000){
-                console.log(e.target.value);
-                console.log("123");
-                consume.innerText = '5000';
-                console.log(consume);
+                money.value = '5000';
             }else if(e.target.value < 500){
-                consume.innerText = 10;
+                money.value = '500';
             } else{
 
                 consume.innerText = (e.target.value / V_time + e.target.value * 0.015).toFixed(2); //每月应还金额

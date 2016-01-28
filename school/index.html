@@ -1,42 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>school</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
+    <title>校园e贷</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/cover.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src = './js/ie-emulation-modes-warning.js'></script>
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">校园E贷</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li ><a href="#">通告</a></li>
-                <li><a href="#">新闻</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" data-toggle="modal" data-target="#Register">注册</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#loginModal">登录</a></li>
-                <li><a href="#" >申请</a></li>
-                <li><a href="#" >关于我们</a></li>
-            </ul>
-        </div>
-        </div>
-    </nav>
 
-    <!--body-->
-    <div class="container-fluid">
-        <img src="./images/bg.jpg" alt="">
+<body>
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <a style="position: fixed;left: 5%;top: 5%;" class="navbar-brand" href="/">
+                            <img alt="Brand" src="./images/logopng.png" style="display: inline;width: 360px">
+                        </a>
+                        <nav>
+
+                            <ul style=" position: fixed;right: 5%;top: 5%;" class="nav masthead-nav">
+                                <li><a href="#" data-toggle="modal" data-target="#news" >通告</a></li>
+                                <li><a href="./apply.html">申请</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#About_Us">关于我们</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="mastFoot">
+                    <div class="inner footer">
+                        <p><span style="color: wheat">校园E贷</span>由 <a href="http://huajiankeji.com">花笺互动制作</a> <a target="_blank" href="http://weibo.com/u/5575184987?is_all=1">新浪微博</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--qqContact-->
+    <div class="qqContact">
+
+        <a target=blank href=http://wpa.qq.com/msgrd?V=3&uin=1599520363&Site=QQ客服&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=1:1599520363:1 alt="点击这里给我发消息"></a>
+    </div>
+    <!--about us-->
+    <div class="modal fade" id="About_Us" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" aria-hidden="true">
+        <div id="modal-dialog" class="modal-dialog modal-md">
+            <div id="modal-content" class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    <h1 class="cover-heading">校园e贷</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="inner cover">
+
+                        <p class="lead text-indent">校园e贷成立于2014年11月，总部在河南郑州，公司致力于为大学生提供现金分期业务，并通过不断创新，通过最简便快捷的流程和服务，开启大学生的理财生活。公司秉承“做大学生首选的金融服务平台”的企业愿景和“帮助大学生树立正确的消费观和信用观”的企业使命，立足河南，已经覆盖河南省各个高校。</p>
+                        <p class="lead text-indent">校园e贷以客户需求为中心，不断完善产品服务，以‘创业贷’和‘助学贷’为主，为大学生提供更好的金融服务。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!--news-->
+    <div class="modal fade" id="news" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" aria-hidden="true">
+        <div  class="modal-dialog modal-md">
+            <div  class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                    <h1 class="cover-heading">校园e贷</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="panel-group"  id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a href="#panel1" class="panel-toggle" data-toggle="collapse" data-parent="#accordion">
+                                        卡1
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="panel1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    卡1内容
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a href="#panel2" class="panel-toggle" data-toggle="collapse" data-parent="#accordion">
+                                        卡2
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="panel2" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    卡2内容
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="calc_wrapper">
+        <div class="money">
+            <label for="money"><span>借款金额</span>
+                <input type="number" id="money" value="500" class="form-control"  min="500" max="5000"/>
+            </label>
+        </div>
+        <div class="time">
+            <label for="slide_r"><span>借款时长</span><span id="long_time">3</span><span>月</span>
+                <input id="slide_r" step="1" type="range" value="3" min="1" max="12" style="width: 200px">
+            </label>
+        </div>
+        <div class="consume">
+            <div class="clr"><span>每月应还款金额</span>
+                <span id="consume">174.17</span>
+            </div>
 
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" >
+        var money   =  document.getElementById('money'); //借款总额
+        var time    = document.getElementById('slide_r'); //借款时长
+        var consume = document.getElementById('consume');//每月应还款金额
+        money.onblur=function(){
+            console.log('jerryhe');
+            if(money.value<500){
+                money.value = 500;
+            }else if(money.value>5000){
+                money.value = '5000';
+            }
+
+        };
+        money.addEventListener('input',function total(e){
+            var V_time  =  time.value;
+            var consume = document.getElementById('consume');
+
+            if(e.target.value > 5000){
+                money.value = '5000';
+            }else if(e.target.value < 500){
+                money.value = '500';
+            } else{
+
+                consume.innerText = (e.target.value / V_time + e.target.value * 0.015).toFixed(2); //每月应还金额
+            }
+        },false);
+
+
+        time.addEventListener('input',function total(e){
+            var timer = document.getElementById('long_time');
+            Object.defineProperty(timer, 'time', {
+                get: function() {
+                    return time.value;
+                },
+                set: function(newValue) {
+                    time.value = newValue;
+                },
+                configurable: true
+            });
+            document.getElementById("long_time").innerText = timer.time;
+
+            var totalMoney =  money.value;
+            consume.innerText = ((totalMoney / e.target.value) +  totalMoney * 0.015).toFixed(2)  ; //每月应还金额
+        },false);
+
+        //每月应还 = 借款总额/借款时间 + 借款总额*0.015
+    </script>
     <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
-    <script src = './js/bootstrap.min.js'></script>
+    <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+    <script src="./js/bootstrap.js"></script>
 </body>
 </html>

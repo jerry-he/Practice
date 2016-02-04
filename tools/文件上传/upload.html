@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="file" name="picture" accept="image/png, image/jpeg"/>
+    <script type="application/javascript">
+        document.querySelector('input[name=picture]').onchange = function(e){
+            readFile(e.target.files[0]);
+        }
+
+        function readFile(file){
+
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                var rawData = reader.result;
+                console.log(rawData);
+            };
+            reader.readAsBinaryString(file);
+
+
+        }
+
+
+    </script>
+
+</body>
+</html>

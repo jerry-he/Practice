@@ -12,7 +12,8 @@
     <title>校园e贷</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="./css/cover.css" rel="stylesheet">
@@ -28,32 +29,42 @@
 </head>
 
 <body>
-    <div class="site-wrapper">
-        <div class="site-wrapper-inner">
-            <div class="cover-container">
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <a style="position: fixed;left: 5%;top: 5%;" class="navbar-brand" href="/">
-                            <img alt="Brand" src="./images/logopng.png" style="display: inline;width: 360px">
-                        </a>
-                        <nav>
+   <div class="index_wrapper">
+       <nav class="navbar navbar-inverse navbar-fixed-top" style="opacity: 0.8">
+           <div class="container">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                       <span class="sr-only">Toggle navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                   <a class="navbar-brand" style="display: block" href="#"><img alt="Brand" src="./images/logo.png" class="logo">
+                       <div class="col">
+                           <div class="slogan">
+                               <span>校园e贷</span>
+                           </div>
+                           <div class="slogan1">
+                               <span>大学生首选的金融服务平台</span>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               <div id="navbar" class="navbar-collapse collapse" style="float: right">
+                   <ul class="nav navbar-nav">
+                       <li><a href="#" data-toggle="modal" data-target="#news" >通告</a></li>
+                       <li><a  href='./apply.html'>申请</a></li>
+                       <li><a href="#" data-toggle="modal" data-target="#process">进度</a></li>
+                       <li><a href="#" data-toggle="modal" data-target="#About_Us">关于我们</a></li>
+                   </ul>
+               </div><!--/.nav-collapse -->
+           </div>
+       </nav>
 
-                            <ul style=" position: fixed;right: 5%;top: 5%;" class="nav masthead-nav">
-                                <li><a href="#" data-toggle="modal" data-target="#news" >通告</a></li>
-                                <li><a href="./apply.html">申请</a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#About_Us">关于我们</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="mastFoot">
-                    <div class="inner footer">
-                        <p><span style="color: wheat">校园E贷</span>由 <a href="http://huajiankeji.com">花笺互动制作</a> <a target="_blank" href="http://weibo.com/u/5575184987?is_all=1">新浪微博</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+       <div class="footer">
+           <p><span style="color: wheat">校园e贷</span>由 <a href="http://huajiankeji.com">花笺互动制作</a> </p>
+       </div>
+   </div>
     <!--qqContact-->
     <div class="qqContact">
 
@@ -80,23 +91,23 @@
 
     <!--news-->
     <div class="modal fade" id="news" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" aria-hidden="true">
-        <div  class="modal-dialog modal-md">
-            <div  class="modal-content">
-                <div class="modal-header">
-                    <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
-                    <h1 class="cover-heading">校园e贷</h1>
+        <div  class="modal-dialog modal-lg">
+            <div  class="modal-content" style="position: relative;top: 60px;opacity: 0.9;-webkit-backdrop-filter: blur(20px)">
+                <div id="modal-header" class="modal-header">
+                    <a class="close" data-dismiss="modal" aria-label="Close"><span id="modal_close" aria-hidden="true">×</span></a>
+                    <h1 class="cover-heading ">新闻中心</h1>
                 </div>
                 <div class="modal-body">
-                    <div class="panel-group"  id="accordion">
+                    <div class="panel-group" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <div class="panel-title">
-                                    <a href="#panel1" class="panel-toggle" data-toggle="collapse" data-parent="#accordion">
+                                    <a href="#panel1" class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
                                         卡1
                                     </a>
                                 </div>
                             </div>
-                            <div id="panel1" class="panel-collapse collapse in">
+                            <div id="panel1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                                 <div class="panel-body">
                                     卡1内容
                                 </div>
@@ -105,90 +116,182 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <div class="panel-title">
-                                    <a href="#panel2" class="panel-toggle" data-toggle="collapse" data-parent="#accordion">
+                                    <a href="#panel2" class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
                                         卡2
                                     </a>
                                 </div>
                             </div>
-                            <div id="panel2" class="panel-collapse collapse in">
+                            <div id="panel2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                                 <div class="panel-body">
                                     卡2内容
                                 </div>
                             </div>
                         </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a href="#panel3" class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+                                        卡3
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="panel3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                <div class="panel-body">
+                                    卡3内容
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a href="#panel4" class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+                                        卡4
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="panel4" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                <div class="panel-body">
+                                    卡4内容
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a href="#panel5" class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+                                        卡5
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="panel5" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                <div class="panel-body">
+                                    卡5内容
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <nav>
+                        <ul class="pager">
+                            <li class="previous"><a  class="pageColor" href="#"><span aria-hidden="true">&larr;</span> 上一页</a></li>
+                            <li class="next"><a class="pageColor" href="#">下一页 <span aria-hidden="true">&rarr;</span></a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
     </div>
+    <!--借款计算器-->
     <div class="calc_wrapper">
         <div class="money">
-            <label for="money"><span>借款金额</span>
+            <label for="money" style="text-align: left;width: 120%"><span>借款金额</span>
                 <input type="number" id="money" value="500" class="form-control"  min="500" max="5000"/>
             </label>
         </div>
         <div class="time">
-            <label for="slide_r"><span>借款时长</span><span id="long_time">3</span><span>月</span>
+            <label for="slide_r" style="text-align: left"><span>借款时长</span><span id="long_time">3</span><span>月</span>
                 <input id="slide_r" step="1" type="range" value="3" min="1" max="12" style="width: 200px">
             </label>
         </div>
         <div class="consume">
             <div class="clr"><span>每月应还款金额</span>
                 <span id="consume">174.17</span>
+                <span>元</span>
             </div>
 
         </div>
     </div>
-    <script type="text/javascript" charset="utf-8" >
-        var money   =  document.getElementById('money'); //借款总额
-        var time    = document.getElementById('slide_r'); //借款时长
-        var consume = document.getElementById('consume');//每月应还款金额
-        money.onblur=function(){
-            console.log('jerryhe');
-            if(money.value<500){
-                money.value = 500;
-            }else if(money.value>5000){
-                money.value = '5000';
-            }
 
-        };
-        money.addEventListener('input',function total(e){
-            var V_time  =  time.value;
-            var consume = document.getElementById('consume');
+    <!--进度查询-->
+   <div class="modal fade" id="process" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" aria-hidden="true">
+       <div  class="modal-dialog modal-sm">
+           <div  class="modal-content" style="position: relative;top: 60px;opacity: 0.9;-webkit-backdrop-filter: blur(20px)">
+               <div  class="modal-header">
+                   <a class="close" data-dismiss="modal" aria-label="Close"><span  aria-hidden="true">×</span></a>
+                   <h4 class="cover-heading ">我的借款申请进度查询</h4>
+               </div>
+               <div class="modal-body">
+                   <div class="process_view">
+                       <label for="applier_id">
+                           <input id="applier_id" step="1" type="number" placeholder="请输入你的身份证号码">
+                       </label>
+                       <div class="info" style="display: none">
+                           <h5 class="text-left" style="color: orangered">您的借款申请已经通过审核</h5>
+                           <p class="text-left text-indent">您的借款申请已经通过审核，我们会通过您所在区域的经理为您取得联系</p>
+                       </div>
+                       <div class="btn">
+                           <span  ><button id="checkOrder" class="btn-primary">查询</button></span>
+                           <a data-toggle="modal" data-target="#process"><button class="btn-info">取消</button></a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
 
-            if(e.target.value > 5000){
-                money.value = '5000';
-            }else if(e.target.value < 500){
-                money.value = '500';
-            } else{
-
-                consume.innerText = (e.target.value / V_time + e.target.value * 0.015).toFixed(2); //每月应还金额
-            }
-        },false);
-
-
-        time.addEventListener('input',function total(e){
-            var timer = document.getElementById('long_time');
-            Object.defineProperty(timer, 'time', {
-                get: function() {
-                    return time.value;
-                },
-                set: function(newValue) {
-                    time.value = newValue;
-                },
-                configurable: true
-            });
-            document.getElementById("long_time").innerText = timer.time;
-
-            var totalMoney =  money.value;
-            consume.innerText = ((totalMoney / e.target.value) +  totalMoney * 0.015).toFixed(2)  ; //每月应还金额
-        },false);
-
-        //每月应还 = 借款总额/借款时间 + 借款总额*0.015
-    </script>
     <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
     <script src="./js/bootstrap.js"></script>
+   <script type="text/javascript" charset="utf-8" >
+       var money   =  document.getElementById('money'); //借款总额
+       var time    = document.getElementById('slide_r'); //借款时长
+       var consume = document.getElementById('consume');//每月应还款金额
+       /*金额输入框焦点离开时判断金额*/
+       money.onblur=function(){
+           if(money.value<500){
+               money.value = 500;
+           }else if(money.value>5000){
+               money.value = '5000';
+           }
+       };
+       /*监听金额输入，实现及时更新金额*/
+
+       money.addEventListener('change',function total(e){
+           var V_time  =  time.value;
+           var consume = document.getElementById('consume');
+           if(e.target.value > 5000){
+               /*money.value = '5000';*/
+           }else if(e.target.value < 500){
+               /*money.value = '500';*/
+           } else{
+
+               consume.innerText = (e.target.value / V_time + e.target.value * 0.015).toFixed(2); //每月应还金额
+           }
+
+       },false);
+
+
+       time.addEventListener('change',function total(e){
+           var timer = document.getElementById('long_time');
+           Object.defineProperty(timer, 'time', {
+               get: function() {
+                   return time.value;
+               },
+               set: function(newValue) {
+                   time.value = newValue;
+               },
+               configurable: true
+           });
+           document.getElementById("long_time").innerText = timer.time;
+
+           var totalMoney =  money.value;
+           consume.innerText = ((totalMoney / e.target.value) +  totalMoney * 0.015).toFixed(2)  ; //每月应还金额
+       },false);
+
+       //每月应还 = 借款总额/借款时间 + 借款总额*0.015
+
+       /*查询订单信息*/
+       var info =   document.getElementById('checkOrder');
+       var desInfo =document.getElementsByClassName('info')[0];
+
+       info.onclick = function(){
+           desInfo.style.display = 'block'
+       };
+        /*jq版本，留着是为了让别人看到jq给js比着性能差距有多明显*/
+       /* $('#checkOrder').click(function(){
+        $('.info').css('display','block');
+        });*/
+       /*查询订单信息结束*/
+   </script>
 </body>
 </html>

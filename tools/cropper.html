@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>jQuery.responsiveTopScreen</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        (function(jQuery){
+            var ResponsiveImageCropper = function() {};
+            ResponsiveImageCropper.prototype = {
+
+                /**
+                 * target img element
+                 */
+                targetElements: undefined,
+
+                /**
+                 * options.
+                 */
+                options: undefined,
+
+                /**
+                 * run
+                 */
+                run: function(targetElements){
+                    var _this = this;
+                    this.targetElements = new Array();
+                    targetElements.each(function(index){
+                        var imgElement = $(this);
+                        imgElement.css({
+                            display: "none"
+                        })
+
+                        var preload = new Image();
+
+                        preload.onload = function(){
+                            imgElement.css({
+                                position: "absolute"
+                            });
+                            _this.targetElements.push(imgElement);
+                            _this.croppingImageElement(imgElement);
+                            imgElement.css({
+                                display: "block"
+                            });
+                        }
+                        preload.src = imgElement.attr('src');
+                    });
+
+                    $(window).resize(function(event){
+                        _this.onResizeCallback();
+                    });
+                },
+
+                /**
+                 * On resize callback function.
+                 */
+                onResizeCallback: function(){
+                    var _this = this;
+                    jQuery.each(this.targetElements, function(index){
+                        var imgElement = this;
+                        _this.croppingImageElement(imgElement);
+                    });
+                },
+
+                /**
+                 * crop image
+                 */
+                croppingImageElement: function(imgElement){
+                    var inner, outer;
+
+                    if (imgElement.data('crop-image-wrapped')){
+                        outer = imgElement.data('crop-image-outer');
+                        inner = imgElement.data('crop-image-inner');
+
+                    }else{
+                        outer = jQuery("<div>");
+                        inner = jQuery("<div>");
+                        outer.css({
+                            overflow: "hidden",
+                            margin: imgElement.css("margin"),
+                            padding: imgElement.css("padding")
+                        });
+
+                        imgElement.css({
+                            margin: 0,
+                            padding: 0
+                        });
+
+                        inner.css({
+                            position: "relative",
+                            overflow: "hidden"
+                        });
+
+                        // append elements.
+                        imgElement.after(outer);
+                        outer.append(inner);
+                        inner.append(imgElement);
+
+                        // set datas.
+                        imgElement.data('crop-image-outer', outer);
+                        imgElement.data('crop-image-inner', inner);
+                        imgElement.data('crop-image-wrapped', true);
+                    }
+
+                    this.desideImageSizes(imgElement);
+                },
+
+                /**
+                 * Deside image width.
+                 */
+                desideImageSizes: function(imgElement){
+                    var outer = imgElement.data('crop-image-outer');
+                    var inner = imgElement.data('crop-image-inner');
+                    var ratio = imgElement.data('crop-image-ratio')
+
+                    if (!ratio){
+                        ratio = 1;
+                    }
+
+                    var height = outer.width() * ratio;
+                    inner.height(height);
+
+                    imgElement.width(outer.width());
+                    imgElement.height('auto');
+                    imgElement.css({
+                        position: "absolute",
+                        left: 0,
+                        top: - (imgElement.height() - outer.height()) /2
+                    });
+
+                    if ( height > imgElement.height() ){
+                        imgElement.width('auto');
+                        imgElement.height(height);
+                        imgElement.css({
+                            position: "absolute",
+                            left: - (imgElement.width() - outer.width()) /2,
+                            top: 0
+                        });
+                    }
+                },
+
+                /**
+                 * set options.
+                 */
+                setOptions: function(options){
+                    this.options = options;
+                }
+            };
+
+            /**
+             * Main stream
+             */
+            jQuery.fn.responsiveImageCropper = function(options){
+                var options = jQuery.extend(jQuery.fn.responsiveImageCropper.defaults, options);
+                // set using objects.
+                var targetElements = jQuery(this);
+
+                // Event start
+                cropper = new ResponsiveImageCropper();
+                cropper.setOptions(options);
+                cropper.run(targetElements);
+
+                return this;
+            };
+
+            /**
+             * default options.
+             * @property screenFilterImage string put on top-screen image using `repeat-x left bottom`.
+             */
+            jQuery.fn.responsiveImageCropper.defaults = {
+
+            };
+        })(jQuery);
+    </script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+</head>
+<body style="margin:0; padding:0;">
+
+<h1>They are cropped images.</h1>
+
+<h2>Oh! what a pretty cats!!!</h2>
+
+<div style="width: 100%;">
+    <div style="float: left; width: 40%; margin: 0 5% 0 5%">
+        <img src="http://placekitten.com/800/600" data-crop-image-ratio="1" />
+        <p>This kitten is so cute!</p>
+    </div>
+    <div style="float: left; width: 40%; margin: 0 5% 0 5%">
+        <img src="http://placekitten.com/400/600" data-crop-image-ratio="1" />
+        <p>This kitten too....</p>
+        <p>This kitten too....</p>
+        <p>This kitten too....</p>
+        <p>This kitten too....</p>
+        <p>This kitten too....</p>
+        <p>This kitten too....</p>
+        <p>This kitten too....</p>
+        <p>This kitten too....</p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function(){
+        $("img").responsiveImageCropper();
+    });
+</script>
+</body>
+</html>

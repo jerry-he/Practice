@@ -2,168 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7745994-8908-44be-b4c3-64c38798664b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/es5 js data two way.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobilelayout/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/随手记/js闭包.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/actionsheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/arrowlink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/avatar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/badge.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/border.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/btn-group.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/btn-progress.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/btn.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/checkbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/form.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/frozen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/full.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/icon-full.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/input.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/justify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/label.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/loading.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/mixin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/newstips.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/notice.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/nowrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/placehold.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/poptips.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/progress.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/radio.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/reddot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/rem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/searchbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/selector.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/switch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/tab.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/tag.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/tips-news.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/tips.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/tooltips.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/type.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/ui-btn-vip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/ui-icon-qq.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/ui-icon-qqlevel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/ui-icon-viplevel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/ui-tooltips-vip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/variable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/vip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/css/whitespace.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/css/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/css/frozen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/font/iconfont-full.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/img/loading_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/img/loading_sprite_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/js/frozen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/dist/lib/zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/doc/css.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/doc/js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/font/iconfont-full.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/img/loading_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/img/loading_sprite_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/img/vip/icon_qqlevel_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/img/vip/icon_vip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/component/dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/component/loading.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/component/scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/component/tips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/core/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/effect/cover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/effect/parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/js/frozen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/assets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/detect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/fx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/fx_methods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/gesture.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/ios3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/touch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/lib/zeptojs/zepto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/base/icon-full.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/base/icon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/base/mixin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/base/rem.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/base/reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/base/type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/base/variable.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/actionsheet.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/avatar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/btn-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/btn-progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/btn.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/checkbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/dialog.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/form.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/input.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/label.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/loading.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/newstips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/notice.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/poptips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/reddot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/searchbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/selector.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/switch.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/tab.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/table.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/tag.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/tips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/component/tooltips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/frozen.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/full.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/arrowlink.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/border.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/justify.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/nowrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/placehold.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/util/whitespace.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/vip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/vip/ui-btn-vip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/vip/ui-icon-qq.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/vip/ui-icon-qqlevel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/vip/ui-icon-viplevel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frozenui/node_modules/frozenui/sass/vip/ui-tooltips-vip.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HJKJ/contactus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dairy Practice.iws" />
@@ -184,12 +23,32 @@
     <favorites_list name="Dairy Practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobilelayout/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="hjkj.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HJKJ/css/hjkj.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4888889">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state vertical-scroll-proportion="-9.931034">
+              <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactus.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HJKJ/contactus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5720721">
+              <caret line="39" column="108" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.206897">
+              <caret line="9" column="7" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -200,10 +59,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Html5" />
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -231,23 +90,24 @@
         <option value="$PROJECT_DIR$/HJKJ/css/animate.css" />
         <option value="$PROJECT_DIR$/law/check.html" />
         <option value="$PROJECT_DIR$/law/law.html" />
-        <option value="$PROJECT_DIR$/HJKJ/css/hjkj.css" />
         <option value="$PROJECT_DIR$/school/js/ie-emulation-modes-warning.js" />
         <option value="$PROJECT_DIR$/school/test.html" />
         <option value="$PROJECT_DIR$/school/校园e贷申请表1.files/sheet001.htm" />
         <option value="$PROJECT_DIR$/school/校园e贷申请表1.files/stylesheet.css" />
-        <option value="$PROJECT_DIR$/HJKJ/index.html" />
         <option value="$PROJECT_DIR$/school/apply2.html" />
-        <option value="$PROJECT_DIR$/school/apply.html" />
         <option value="$PROJECT_DIR$/school/news.html" />
         <option value="$PROJECT_DIR$/tools/CSS相关/磨砂玻璃.html" />
         <option value="$PROJECT_DIR$/Loan calculator/Loan calculator.html" />
         <option value="$PROJECT_DIR$/school/css/cover.css" />
+        <option value="$PROJECT_DIR$/tools/文件上传/upload.html" />
+        <option value="$PROJECT_DIR$/HJKJ/list.html" />
+        <option value="$PROJECT_DIR$/HJKJ/detail.html" />
+        <option value="$PROJECT_DIR$/HJKJ/footer.html" />
         <option value="$PROJECT_DIR$/school/index.html" />
-        <option value="$PROJECT_DIR$/tools/es5 js data two way.html" />
-        <option value="$PROJECT_DIR$/frozenui/demo/actionsheet.html" />
-        <option value="$PROJECT_DIR$/tools/随手记/js闭包.html" />
-        <option value="$PROJECT_DIR$/mobilelayout/index.html" />
+        <option value="$PROJECT_DIR$/school/apply.html" />
+        <option value="$PROJECT_DIR$/HJKJ/css/hjkj.css" />
+        <option value="$PROJECT_DIR$/HJKJ/index.html" />
+        <option value="$PROJECT_DIR$/HJKJ/contactus.html" />
       </list>
     </option>
   </component>
@@ -256,12 +116,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -284,9 +143,10 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -316,7 +176,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
+              <option name="myItemId" value="HJKJ" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,113 +190,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
+              <option name="myItemId" value="HJKJ" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imgs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imgs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="member" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imgs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gift" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dairy Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12.28Travelling" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frozenUI" />
-    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\优秀代码\Dairy Practice\school\css" />
+      <recent name="E:\Projects\优秀代码\Dairy Practice\school\js" />
       <recent name="E:\Projects\优秀代码\Dairy Practice\school" />
       <recent name="E:\Projects\优秀代码\Dairy Practice\school\images" />
       <recent name="E:\Projects\优秀代码\Dairy Practice\law" />
-      <recent name="E:\Projects\优秀代码\Dairy Practice\HJKJ\images" />
-      <recent name="E:\Projects\优秀代码\Dairy Practice\HJKJ" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
@@ -444,13 +232,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
@@ -471,6 +252,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -478,6 +265,7 @@
       <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
       <test-directory />
       <recursive>false</recursive>
       <method />
@@ -497,26 +285,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1881041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.084285714" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -535,10 +323,100 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+    <entry file="file://$PROJECT_DIR$/school/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33260632">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        <state vertical-scroll-proportion="-73.94522">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/module/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6361632">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promise/promise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BootStrap/Modular/public.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11261261">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/imgs/Travelling/43_20141126133759476.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/imgs/Travelling/43_20141126133613351.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/imgs/Travelling/43_2014112613404023.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/imgs/Travelling/carousel/001.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/location.hash理解demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13498312">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BootStrap/pro_tour_contract.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/字符串转驼峰.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/无缝切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -651,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HJKJ/css/hjkj.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.51724">
-          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/school/js/ie-emulation-modes-warning.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9563795">
@@ -679,10 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
+    <entry file="file://$PROJECT_DIR$/12.28Travelling/Travelling.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.620689">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="46" />
+        <state vertical-scroll-proportion="-0.9144144">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="118" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -693,198 +564,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/es5 js data two way.html">
+    <entry file="file://$PROJECT_DIR$/Loan calculator/Loan calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55480605">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.8198198">
+          <caret line="63" column="13" selection-start-line="7" selection-start-column="4" selection-end-line="63" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/tools/CSS相关/磨砂玻璃.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="6.137931">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/js/core/core.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33260632">
+          <caret line="158" column="63" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2673913">
+          <caret line="1293" column="19" selection-start-line="1293" selection-start-column="19" selection-end-line="1293" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/节点门面on自定义事件绑定forTouch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/文件上传/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2927928">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/school/css/cover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.641791">
-          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+        <state vertical-scroll-proportion="4.572072">
+          <caret line="218" column="13" selection-start-line="218" selection-start-column="13" selection-end-line="218" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Loan calculator/Loan calculator.html">
+    <entry file="file://$PROJECT_DIR$/HJKJ/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7943925">
-          <caret line="65" column="7" selection-start-line="7" selection-start-column="4" selection-end-line="65" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0990991">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJKJ/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/school/apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7943925">
-          <caret line="304" column="7" selection-start-line="304" selection-start-column="7" selection-end-line="304" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/demo/iconfont/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/img/loading_sprite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/img/loading_sprite_white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/img/vip/icon_qqlevel_sprite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/css/actionsheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/doc/js.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/js/component/scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/js/component/tips.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/demo/scroller.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10903427">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/demo/js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/demo/avatar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frozenui/demo/actionsheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62305295">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/随手记/js闭包.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.788162">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/随手记/png8图片转换为base64有毛边.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26190478">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/h5点击和拖拽按钮开关.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/location.hash理解demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36645964">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.28Travelling/Travelling.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2251816">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="118" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="-13.379311">
+          <caret line="265" column="30" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/school/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26634383">
-          <caret line="5" column="72" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.42792794">
+          <caret line="55" column="62" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJKJ/css/hjkj.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.931034">
+          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobilelayout/index.html">
+    <entry file="file://$PROJECT_DIR$/HJKJ/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4888889">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state vertical-scroll-proportion="-6.206897">
+          <caret line="9" column="7" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HJKJ/contactus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5720721">
+          <caret line="39" column="108" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
           <folding />
         </state>
       </provider>

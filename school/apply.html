@@ -12,39 +12,60 @@
     <title>校园e贷</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="./css/cover.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="navbar  navbar-static-top">
-            <a class="navbar-brand" href="/">
-                <img alt="Brand" src="./images/logo.png" style="display: inline;width: 32px">
-                <span>校园E贷</span>
-            </a>
-            <ul class="nav navbar-right">
-                <li><a href="#" >通告</a></li>
-                <li><a href="./apply.html">申请</a></li>
-            </ul>
-        </div>
-
-    </nav>
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" style="display: block" href="#"><img alt="Brand" src="./images/logo.png" class="logo">
+                <div class="col">
+                    <div class="slogan">
+                        <span>校园e贷</span>
+                    </div>
+                    <div class="slogan1">
+                        <span>大学生首选的金融服务平台</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" style="float: right">
+            <ul class="nav navbar-nav">
+                <li><a href="#" data-toggle="modal" data-target="#news" >通告</a></li>
+                <li><a  href='./apply.html'>申请</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#About_Us">关于我们</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+    <div class="container" style="position: relative;top: 60px">
         <div class="row">
             <h3 class="text-center">校园e贷申请表</h3>
         </div>
         <form role = 'form' id="formData">
             <div class="row">
                 <div class="col-sm-3">
-                        <h4>您申请的贷款金额</h4><input  class= "form-control" type="number">
+                        <h4 class="text-left">您申请的贷款金额</h4>
+                    <input id="moneyNum" name="moneyNum" class= "form-control" type="number" min="500" max="5000" placeholder="金额应在500-5000之间">
                 </div>
                 <div class="col-sm-3">
-                    <h4>可承受最高月还款额</h4><input class= "form-control" type="number">
+                    <h4 class="text-left">可承受最高月还款额</h4>
+                    <input id="backNum" name="backNum" class= "form-control" type="number" placeholder="输入每期还款金额">
                 </div>
                 <div class="col-sm-3">
-                    <h4>您的申请期限(单位：月)</h4><input  class= "form-control" type="number">
+                    <h4 class="text-left">您的申请期限(单位：月)</h4>
+                    <input  id="monthLong" name="monthLong" class= "form-control" type="number" placeholder="最长时间12个月">
                 </div>
                 <div class="col-sm-3">
-                    <h4>选择贷款用途</h4>
-                    <select id="selectValue" class="form-control" onchange="changeValue()">
+                    <h4 class="text-left">选择贷款用途</h4>
+                    <select  id="selectValue" name="selectValue" class="form-control" onchange="changeValue()">
                         <option>日常生活消费</option>
                         <option>旅游支出</option>
                         <option>医疗支出 </option>
@@ -56,34 +77,34 @@
                 </div>
             </div>
             <div class="row" style="padding: 15px">
-                <input id="others" type="text"  class= "form-control" style = "margin-top:10px;display: none" placeholder="描述你的贷款用途">
+                <input id="others" name="others" type="text"  class= "form-control" style = "margin-top:10px;display: none" placeholder="描述你的贷款用途">
             </div>
             <div class="row" >
                 <h4 class="text-center" style="color: red">您的个人信息</h4>
                 <div class="col-sm-3">
-                    <input class= "form-control" type="text" placeholder="姓名">
+                    <input id="username" class= "form-control" type="text" name="username" placeholder="姓名">
                 </div>
                <div class="col-sm-3" style="line-height: 32px">
                    <span>性别</span>
-                   <label><input type="radio" name="optionsRadios" id="optionsRadios1" value="male" >男性</label>
-                   <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="female" >女性</label>
+                   <label><input type="radio" name="optionsRadios" id="optionsRadios1" checked value="male" >男性</label>
+                   <label><input type="radio" name="optionsRadios" id="optionsRadios2"   value="female" >女性</label>
                </div>
                 <div class="col-sm-3">
-                    <input type="number" class= "form-control" maxlength="12"placeholder="手机号码">
+                    <input type="number" id="phoneNum" name="phoneNum" class= "form-control" maxlength="11"placeholder="手机号码">
                 </div>
                 <div class="col-sm-3">
-                    <input type="number" class= "form-control" maxlength="12" placeholder="qq号码">
+                    <input type="number" id="qqNum" name="qqNum" class= "form-control" maxlength="11" placeholder="qq号码">
                 </div>
             </div>
             <div class="row" style="margin-top: 20px">
                 <div class="col-sm-3">
-                    <input type="number" class= "form-control" maxlength="18" placeholder="身份证号码">
+                    <input type="number" class= "form-control" id="rentID" name="rentID" maxlength="18" placeholder="身份证号码">
                 </div>
                 <div class="col-sm-1" style="line-height: 32px">
                     <span class="form-inline">学历</span>
                 </div>
                 <div class="col-sm-2">
-                    <select class="form-control list-inline"  >
+                    <select id="schoolLevel"  name="schoolLevel" class="form-control list-inline"  >
                         <option>硕士及以上</option>
                         <option>本科及同等学历</option>
                         <option>大专及同等学历</option>
@@ -91,57 +112,57 @@
                     </select>
                 </div>
                 <div class="col-sm-6">
-                    <input class= "form-control"  type="text" placeholder="户籍地址">
+                    <input class= "form-control" id="address" name="address" type="text" placeholder="户籍地址">
                 </div>
             </div>
             <div class="row" style="margin-top: 20px">
                 <div class="col-sm-3">
-                    <input class= "form-control" type="number" placeholder="学生证号码">
+                    <input class= "form-control" id="studentID" name="studentID" type="number" placeholder="学生证号码">
                 </div>
                 <div class="col-sm-3">
-                    <input class= "form-control" type="text" placeholder="月生活费">
+                    <input class= "form-control" id="consume" name="consume" type="text" placeholder="月生活费">
                 </div>
                <div class="col-sm-3" style="line-height: 32px">
                    <span>是否获得奖学金</span>
                    <label>
-                       <input type="radio" name="award" id="optionsRadios6">
+                       <input type="radio" name="optionsRadios6" checked id="optionsRadios6" >
                        是
                    </label>
                    <label>
-                       <input type="radio" name="award" id="optionsRadios7" >
+                       <input type="radio" name="optionsRadios6" id="optionsRadios7" >
                        否
                    </label>
                </div>
                 <div class="col-sm-3" style="line-height: 32px">
                     <span>其它平台借款</span>
-                    <label><input type="radio" name="money" id="optionsRadios8" onchange="loan()" >是</label>
-                    <label><input type="radio" name="money" id="optionsRadios9" onchange="loan()" >否</label>
+                    <label><input type="radio" name="optionsRadios8" id="optionsRadios8" onchange="loan()" >是</label>
+                    <label><input type="radio" name="optionsRadios8" checked id="optionsRadios9" onchange="loan()" >否</label>
                 </div>
 
             </div>
             <div class="row">
                 <div class="col-sm-12" id="loanNum" style="display: none">
-                    <input class= "form-control" type="number" placeholder="借款金额" >
+                    <input class= "form-control" type="number" id="borrowNum" name="borrowNum" placeholder="借款金额" >
                 </div>
             </div>
             <div class="row" style="margin-top: 20px">
                 <div class="col-sm-5" style="line-height: 32px">
                     <span>住宅类型</span>
-                    <label><input type="radio" name="house" id="optionsRadios10" >学校宿舍</label>
-                    <label><input type="radio" name="house" id="optionsRadios12" >租房</label>
-                    <label><input type="radio" name="house" id="optionsRadios13" >亲戚家</label>
-                    <label><input type="radio" name="house" id="optionsRadios14" >自有房屋</label>
+                    <label><input type="radio" checked name="optionsRadios10" id="optionsRadios10" >学校宿舍</label>
+                    <label><input type="radio" name="optionsRadios10" id="optionsRadios12" >租房</label>
+                    <label><input type="radio" name="optionsRadios10" id="optionsRadios13" >亲戚家</label>
+                    <label><input type="radio" name="optionsRadios10" id="optionsRadios14" >自有房屋</label>
                 </div>
                 <div id="houseType" >
                     <div class="col-sm-2">
-                        <input id="" class= "form-control" type="number" placeholder="租房金额(元)">
+                        <input id="rentMoney" name="rentMoney" class= "form-control" type="number" placeholder="租房金额(元)">
                     </div>
                     <div class="col-sm-5">
-                        <input class= "form-control" type="text" placeholder="住宿地址">
+                        <input class= "form-control" type="text" id="rentAddress" name="rentAddress" placeholder="住宿地址">
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12">
+            <div class="row">
                 <h3 class="text-center">教育经历由近及远</h3>
                 <table class="table table-responsive ">
                     <thead>
@@ -151,19 +172,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><input class= "form-control" type="text" placeholder="时间"></td>
-                            <td><input class= "form-control" type="text" placeholder="学院名称"></td>
-                            <td><input class= "form-control" type="text" placeholder="所学专业"></td>
+                            <td><input id="time1" name="time1" class= "form-control" type="text" placeholder="时间"></td>
+                            <td><input id="school1" name="school1" class= "form-control" type="text" placeholder="学院名称"></td>
+                            <td><input id="major1" name="major1" class= "form-control" type="text" placeholder="所学专业"></td>
                         </tr>
                         <tr>
-                            <td><input class= "form-control" type="text" placeholder="时间"></td>
-                            <td><input class= "form-control"type="text" placeholder="学院名称"></td>
-                            <td><input class= "form-control" type="text" placeholder="所学专业"></td>
+                            <td><input id="time2" name="time2"     class= "form-control" type="text" placeholder="时间"></td>
+                            <td><input id="school2" name="school2" class= "form-control"type="text" placeholder="学院名称"></td>
+                            <td><input id="major2" name="major2"   class= "form-control" type="text" placeholder="所学专业"></td>
                         </tr>
                         <tr>
-                            <td><input class= "form-control" type="text" placeholder="时间"></td>
-                            <td><input class= "form-control" type="text" placeholder="学院名称"></td>
-                            <td><input class= "form-control" type="text" placeholder="所学专业"></td>
+                            <td><input id="time3" name="time3"     class= "form-control" type="text" placeholder="时间"></td>
+                            <td><input id="school3" name="school3" class= "form-control"type="text" placeholder="学院名称"></td>
+                            <td><input id="major3" name="major3"   class= "form-control" type="text" placeholder="所学专业"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -171,68 +192,98 @@
             <div class="row">
                 <h3 class="text-center">您的工作信息</h3>
                 <div class="col-sm-6">
-                    <input class= "form-control" type="text" placeholder="是否有兼职工作">
+                    <input class= "form-control" type="text" id="job" name="job" placeholder="是否有兼职工作">
                 </div>
                 <div class="col-sm-6">
-                    <input class= "form-control" type="text" placeholder="在班级或学校是否有职务">
+                    <input class= "form-control" type="text" id="post" name="post" placeholder="在班级或学校是否有职务">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <h3 class="text-center">创业项目信息</h3>
-                    <input class= "form-control" type="text" placeholder="项目简介">
+                    <input class= "form-control" type="text" id="project" name="project" placeholder="项目简介">
                 </div>
             </div>
             <div class="row">
                 <h3 class="text-center" style="color: red">联系人信息</h3>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" placeholder="直系亲属1">
+                    <input type="text" class="form-control" id="relatives1" name="relatives1" placeholder="直系亲属1">
                 </div>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" placeholder="关系">
+                    <input type="text" class="form-control" id="relatives" name="relatives" placeholder="关系">
                 </div>
                 <div class="col-sm-2">
-                    <input type="number" class="form-control" placeholder="联系电话">
+                    <input type="number" class="form-control" id="relativesPhone" name="relativesPhone" placeholder="联系电话">
                 </div>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" placeholder="直系亲属2">
+                    <input type="text" class="form-control" id="relatives2" name="relatives2" placeholder="直系亲属2">
                 </div>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" placeholder="关系">
+                    <input type="text" class="form-control" id="relatives2rel" name="relatives2rel" placeholder="关系">
                 </div>
                 <div class="col-sm-2">
-                    <input type="number" class="form-control" placeholder="联系电话">
+                    <input type="number" class="form-control" id="relatives2Phone" name="relatives2Phone" placeholder="联系电话">
                 </div>
+            </div>
+            <div class="row" style="margin-top: 15px">
                 <div class="col-sm-2">
                     <input type="text" class="form-control" placeholder="辅导员">
                 </div>
                 <div class="col-sm-2">
-                    <input type="number" class="form-control" placeholder="联系电话">
+                    <input type="number" class="form-control" id="helper" placeholder="联系电话">
                 </div>
                 <div class="col-sm-2">
                     <input type="text" class="form-control" placeholder="班长">
                 </div>
                 <div class="col-sm-2">
-                    <input type="number" class="form-control" placeholder="联系电话">
+                    <input type="number" class="form-control" id="monitor" placeholder="联系电话">
                 </div>
                 <div class="col-sm-2">
                     <input type="text" class="form-control" placeholder="室友">
                 </div>
                 <div class="col-sm-2">
-                    <input type="number" class="form-control" placeholder="联系电话">
+                    <input type="number" class="form-control" id="roommate" placeholder="联系电话">
                 </div>
             </div>
-            <div class="col-sm-12 ">
+            <div class="row">
+                <h3 class="text-justify">
+                    <span>上传相关资料</span>
+                </h3>
+                <div class="col-sm-12">
+                    <input type="file" class="form-control" placeholder="上传身份证" />
+                </div>
+            </div>
+            <div class="row ">
                 <h3 class="text-center" style="color: red">特别声明</h3>
-                <p >
+                <p class="text-left text-indent">
                     本贷款申请人承诺：本申请表填写内容真实，如有不实，本人愿承担相应法律责任。本人授权校园e贷在任何依法成立的征信机构及银行了解和查询本人财产、个人信用记录等信息；公司有权同意或者拒绝本人的贷款申请且无须提供任何理由及无须退回所有申请资料副本给本人。
                 </p>
             </div>
         </form>
         <div class="row">
             <div class="text-right">
-                <div id="summit_form" class="btn btn-primary">提交申请</div>
-                <div class="btn btn-info">取消</div>
+                <div id="summit_form" class="btn btn-primary"><span >提交申请</span></div>
+                <a href="" data-toggle="modal" data-target="#applySuccess"><div class="btn btn-info">取消</div></a>
+            </div>
+        </div>
+    </div>
+    <!--/*申请提交成功弹层*/-->
+    <div class="modal fade" id="applySuccess" tabindex="-1" role="dialog" aria-labelledby="forgotModalLabel" aria-hidden="true">
+        <div  class="modal-dialog modal-lg">
+            <div  class="modal-content">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal" aria-label="Close"><span  aria-hidden="true">×</span></a>
+                    <h1 class="cover-heading ">借款申请</h1>
+                </div>
+                <div class="modal-body">
+                    <p class="text-indent">
+                        借款申请已提交，我们在完成资料审核后将在1一个工作日内给您取得电话联系！如果您有任何疑问，欢迎在线和我们的客服人员取得联系！
+                    </p>
+                    <p>
+                        <img src="./images/微信二维码.jpg" alt="" style="width: 200px">
+                        <div class="text-info">您也可以关注我们的微信账号，快速获得借款进度信息</div>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -240,7 +291,21 @@
     <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <script src = './js/bootstrap.min.js'></script>
+
     <script type="application/javascript" charset="utf-8">
+        /*public function*/
+
+        function isChinese(str)
+        {
+            var re=/[^\u4e00-\u9fa5]/;
+            if(re.test(str)) return false;
+            return true;
+        };
+        function  IsPhone(str){
+            var re = /(13\d|14[57]|15[^4,\D]|17[678]|18\d)\d{8}|170[059]\d{7}/;
+            if(!(re.test(str))) return false;
+            return true;
+        }
     /*选择贷款用途*/
     function changeValue(){
         var b=document.getElementById("selectValue").options.selectedIndex;
@@ -286,19 +351,90 @@
             }
         }
     }
-    /*表单信息验证部分*/
+    /*表单信息验证部分，简单验证，使用原生js验证*/
+    /*统一提醒方法*/
+    function ShowTips(tips,des){
+        var m = document.createElement('div');
+        m.className = 'tips_hh';
+        m.innerHTML = '<div class="content_hh"><span>' + tips + '</span></div>';
+        des.parentNode.style.position = 'relative';
+        des.parentNode.appendChild(m);
+        des.onfocus = function(){
+            m.style.display = 'none';
+        };
+    };
 
-    /*表单信息提交*/
+    /*借款金额验证方法*/
+    var moneyNum = document.getElementById('moneyNum');
+    moneyNum.onblur= function(){
+        if(moneyNum.value > 5000 || moneyNum.value < 500){
+            ShowTips('借款金额应该在500-5000之间',moneyNum);
+
+        }else if(moneyNum.value.length === 0 ){
+            ShowTips('借款金额不能为空',moneyNum);
+        }else {
+            console.log('moneyNum success');
+        };
+    };
+    /*还款金额*/
+    var backNum = document.getElementById('backNum');
+    backNum.onblur= function(){
+        if(backNum.value.length === 0){
+            ShowTips('月还款金额不能为空',backNum);
+        }else if(backNum.value > moneyNum.value){
+            console.log(backNum.value);
+            console.log(moneyNum.value);
+            ShowTips('月还款金额不能大于借款金额',backNum);
+        }else {
+            console.log('backNum success');
+        };
+    };
+    /*还款时间*/
+    var monthLong = document.getElementById('monthLong');
+    monthLong.onblur = function(){
+        if(monthLong.value.length === 0){
+            ShowTips('还款期限不能为空',monthLong);
+        }else if(monthLong.value > 12 || moneyNum.value < 1){
+            console.log(monthLong.value);
+            ShowTips('还款期限须在1到12个月之间',monthLong);
+        }else {
+            console.log('monthLong success');
+        };
+    };
+    var username = document.getElementById('username');
+    username.onblur = function(){
+        if(username.value.length === 0){
+            ShowTips('用户名不能为空',username);
+        }else if(isChinese(username.value)){
+            ShowTips('用户名须在两到四个汉字之间',username);
+        }else if( username.value.length > 4 || username.value.length < 1){
+            ShowTips('姓名必须为中文字符',username);
+        };
+
+
+    };
+
+
+   var phoneNum = document.getElementById('phoneNum');
+
+
+
+        phoneNum.onblur = function(){
+                if(phoneNum.value.length != 11){
+                    ShowTips('请输入正确的电话号码',phoneNum);
+                }else if(!(IsPhone(phoneNum.value))) {
+                    ShowTips('请输入正确的电话号码111',phoneNum);
+                }else{
+                    console.log('phoneNum success')
+                }
+            };
+        /*表单信息提交,只能写这个里面，利用js代码顺序执行的特点，阻断信息不完整的提交*/
     var formData = document.getElementById('formData').elements;
     var summitBtn= document.getElementById('summit_form');
-        summitBtn.onclick = function(){
-           for(var i = 0;i<=formData.length;i++){
-               data = {
-                  'formData':"formData.[i]"
-               }
 
-           }
-        }
+
+
+
 
     </script>
 </body>
